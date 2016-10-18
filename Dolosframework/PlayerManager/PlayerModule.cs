@@ -6,7 +6,7 @@ namespace Dolosframework.PlayerManager
 {
     public class PlayerModule : Module
     {
-        public List<BasePlayer> Localplayer = new List<BasePlayer>();
+        public readonly List<BasePlayer> Localplayer = new List<BasePlayer>();
 
         protected override void OnUpdate()
         {
@@ -16,9 +16,11 @@ namespace Dolosframework.PlayerManager
 
             var baseAddress = Framework.Memory.Read<IntPtr>(Framework.ClientDll.BaseAddress + Offsets.LocalPlayer.dwLocalPlayer, false);
 
-            if (baseAddress == IntPtr.Zero) return;
-            var player = new BasePlayer(baseAddress);
-            Localplayer.Add(player);
+            if (baseAddress != IntPtr.Zero)
+            {
+                var player = new BasePlayer(baseAddress);
+                Localplayer.Add(player);
+            }
         }
     }
 }

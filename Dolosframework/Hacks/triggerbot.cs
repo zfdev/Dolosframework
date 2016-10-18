@@ -5,7 +5,7 @@ using System.Threading;
 
 namespace Dolosframework.Hacks
 {
-    public class Triggerbot : Module
+    public partial class Triggerbot : Module
     {
         public static void Activated()
         {

@@ -6,7 +6,7 @@ namespace Dolosframework.CrosshairManager
 {
     public class CrosshairModule : Module
     {
-        public List<BaseCrosshair> Crosshair = new List<BaseCrosshair>();
+        public readonly List<BaseCrosshair> Crosshair = new List<BaseCrosshair>();
 
         protected override void OnUpdate()
         {

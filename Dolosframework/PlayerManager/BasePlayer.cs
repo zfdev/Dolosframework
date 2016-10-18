@@ -6,7 +6,7 @@ namespace Dolosframework.PlayerManager
 {
     public class BasePlayer
     {
-        public readonly IntPtr BaseAddress;
+        private readonly IntPtr baseAddress;
 
         /// <summary>
         /// The Base Address for the localplayer
@@ -14,7 +14,7 @@ namespace Dolosframework.PlayerManager
         /// <param name="baseAddress"></param>
         public BasePlayer(IntPtr baseAddress)
         {
-            this.BaseAddress = baseAddress;
+            this.baseAddress = baseAddress;
         }
 
         #region Localplayer info
@@ -22,17 +22,17 @@ namespace Dolosframework.PlayerManager
         /// <summary>
         /// Returns the localplayers health
         /// </summary>
-        public int Health => Framework.Memory.Read<int>(BaseAddress + Offsets.Misc.Health, false);
+        public int Health => Framework.Memory.Read<int>(baseAddress + Offsets.Misc.Health, false);
 
         /// <summary>
         /// Returns the localplayers health
         /// </summary>
-        public int Team => Framework.Memory.Read<int>(BaseAddress + Offsets.Misc.Team, false);
+        public int Team => Framework.Memory.Read<int>(baseAddress + Offsets.Misc.Team, false);
 
         /// <summary>
         /// Returns the base address of the enemy or entity in the crosshair
         /// </summary>
-        public int Crosshair => Framework.Memory.Read<int>(BaseAddress + Offsets.LocalPlayer.m_iCrosshairId, false);
+        public int Crosshair => Framework.Memory.Read<int>(baseAddress + Offsets.LocalPlayer.m_iCrosshairId, false);
 
         public IntPtr ClientState => Framework.Memory.Read<IntPtr>(Framework.EngineDll.BaseAddress + Offsets.Misc.DwClientState, false);
 
@@ -45,12 +45,12 @@ namespace Dolosframework.PlayerManager
         /// </summary>
         ///
 
-        public Vector3 Position => Framework.Memory.Read<Vector3>(BaseAddress + Offsets.Misc.m_vecOrigin, false);
+        public Vector3 Position => Framework.Memory.Read<Vector3>(baseAddress + Offsets.Misc.m_vecOrigin, false);
 
         /// <summary>
         /// Have no idea what this do
         /// </summary>
-        public Vector3 VecView => Framework.Memory.Read<Vector3>(BaseAddress + Offsets.LocalPlayer.m_ViewAngles, false);
+        public Vector3 VecView => Framework.Memory.Read<Vector3>(baseAddress + Offsets.LocalPlayer.m_ViewAngles, false);
 
         /// <summary>
         /// Returns the eyeposition
@@ -60,7 +60,7 @@ namespace Dolosframework.PlayerManager
 
         public Vector3 ViewAngle => Framework.Memory.Read<Vector3>(ClientState + Offsets.LocalPlayer.m_ViewAngles, false);
 
-        public Vector3 VecPunch => Framework.Memory.Read<Vector3>(BaseAddress + Offsets.LocalPlayer.m_aimPunchAngle, false);
+        public Vector3 VecPunch => Framework.Memory.Read<Vector3>(baseAddress + Offsets.LocalPlayer.m_aimPunchAngle, false);
 
         public void SetViewAngles(Vector3 SetView)
         {

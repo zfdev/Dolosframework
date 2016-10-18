@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Dolosframework.Hacks
 {
-    public class Bspotted : Module
+    public partial class Bspotted
     {
         public static void Activated()
         {

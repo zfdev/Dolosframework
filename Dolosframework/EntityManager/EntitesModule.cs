@@ -6,7 +6,7 @@ namespace Dolosframework.EntityManager
 {
     public class EntitesModule : Module
     {
-        public List<BaseEntity> Entities = new List<BaseEntity>();
+        public readonly List<BaseEntity> Entities = new List<BaseEntity>();
 
         protected override void OnUpdate()
         {

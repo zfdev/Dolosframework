@@ -6,44 +6,44 @@ namespace Dolosframework.EntityManager
 {
     public class BaseEntity
     {
-        public readonly IntPtr BaseAddress;
+        private readonly IntPtr _baseAddress;
 
         public BaseEntity(IntPtr baseAddress)
         {
-            this.BaseAddress = baseAddress;
+            this._baseAddress = baseAddress;
         }
 
         /// <summary>
         /// Returns the entities health
         /// </summary>
-        public int Health => Framework.Memory.Read<int>(BaseAddress + Offsets.Misc.Health, false);
+        public int Health => Framework.Memory.Read<int>(_baseAddress + Offsets.Misc.Health, false);
 
         /// <summary>
         /// Returns the entities team
         /// </summary>
-        public int Team => Framework.Memory.Read<int>(BaseAddress + Offsets.Misc.Team, false);
+        public int Team => Framework.Memory.Read<int>(_baseAddress + Offsets.Misc.Team, false);
 
         /// <summary>
         /// Returns true if they are spotted false if they are not
         /// </summary>
-        public bool Spotted => Framework.Memory.Read<bool>(BaseAddress + Offsets.Entity.m_BSpotted, false);
+        public bool Spotted => Framework.Memory.Read<bool>(_baseAddress + Offsets.Entity.m_BSpotted, false);
 
         /// <summary>
         ///Set Enemys as spotted on the radar
         /// </summary>
         /// <param name="value">1 to set them as spotted 0 to remove them as spotted</param>
-        public void SetSpotted(int value) => Framework.Memory.Write<int>(BaseAddress + Offsets.Entity.m_BSpotted, value, false);
+        public void SetSpotted(int value) => Framework.Memory.Write<int>(_baseAddress + Offsets.Entity.m_BSpotted, value, false);
 
         /// <summary>
         /// Returns the entities bonebase
         /// </summary>
         ///
-        public IntPtr BoneBase => Framework.Memory.Read<IntPtr>(BaseAddress + Offsets.Entity.m_dwBoneMatrix, false);
+        public IntPtr BoneBase => Framework.Memory.Read<IntPtr>(_baseAddress + Offsets.Entity.m_dwBoneMatrix, false);
 
         /// <summary>
         /// Returns the entities position
         /// </summary>
-        public Vector3 Position => Framework.Memory.Read<Vector3>(BaseAddress + Offsets.Misc.m_vecOrigin, false);
+        public Vector3 Position => Framework.Memory.Read<Vector3>(_baseAddress + Offsets.Misc.m_vecOrigin, false);
 
         public float Distance
         {

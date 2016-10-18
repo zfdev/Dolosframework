@@ -15,7 +15,7 @@ namespace Dolosframework.CrosshairManager
 
         public int Team => Framework.Memory.Read<int>(_baseCrosshair + Offsets.Misc.Team, false);
 
-        public IntPtr BoneBase => Framework.Memory.Read<IntPtr>(_baseCrosshair + Offsets.Entity.m_dwBoneMatrix, false);
+        private IntPtr BoneBase => Framework.Memory.Read<IntPtr>(_baseCrosshair + Offsets.Entity.m_dwBoneMatrix, false);
 
         public Vector3 BonePosition(int boneId)
         {
