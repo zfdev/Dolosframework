@@ -50,7 +50,7 @@ namespace Dolosframework
             Crosshair.Update();
             LocalPlayer.Update();
 
-            BSpotted.Activate();
+            BSpotted.Activated();
             Triggerbot.Activated();
         }
     }
