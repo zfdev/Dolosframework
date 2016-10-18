@@ -6,16 +6,16 @@ namespace Dolosframework.CrosshairManager
 {
     public class BaseCrosshair
     {
-        private readonly IntPtr _baseCrosshair;
+        private readonly IntPtr baseCrosshair;
 
         public BaseCrosshair(IntPtr baseCrosshair)
         {
-            this._baseCrosshair = baseCrosshair;
+            this.baseCrosshair = baseCrosshair;
         }
 
-        public int Team => Framework.Memory.Read<int>(_baseCrosshair + Offsets.Misc.Team, false);
+        public int Team => Framework.Memory.Read<int>(baseCrosshair + Offsets.Misc.Team, false);
 
-        private IntPtr BoneBase => Framework.Memory.Read<IntPtr>(_baseCrosshair + Offsets.Entity.m_dwBoneMatrix, false);
+        private IntPtr BoneBase => Framework.Memory.Read<IntPtr>(baseCrosshair + Offsets.Entity.m_dwBoneMatrix, false);
 
         public Vector3 BonePosition(int boneId)
         {
