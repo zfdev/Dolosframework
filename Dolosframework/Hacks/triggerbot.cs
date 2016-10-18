@@ -1,32 +1,29 @@
-﻿using Dolosframework.CrosshairManager;
+﻿using Colorful;
+using Dolosframework.CrosshairManager;
 using Dolosframework.Math;
 using System.Linq;
 using System.Threading;
 
 namespace Dolosframework.Hacks
 {
-    public partial class Triggerbot : Module
+    public class Triggerbot : Module
     {
         public static void Activated()
         {
-            foreach (var x in Framework.Crosshair.Crosshair)
+            if (Vector3.IsKeyDown(0x06))
             {
-                foreach (var f in Framework.LocalPlayer.Localplayer)
+                foreach (var Crosshair in Framework.Crosshair.Crosshair)
                 {
-                    var myTeam = f.Team;
-                    if (x.Team == myTeam)
+                    if (Crosshair.Team != 0)
                     {
-                    }
-                    else if (x.Team == 0)
-                    {
-                    }
-                    else if (x.Team != myTeam)
-                    {
-                        if (Vector3.IsKeyDown(0x06))
+                        foreach (var Player in Framework.LocalPlayer.Localplayer)
                         {
-                            f.SetAttack(1);
-                            Thread.Sleep(50);
-                            f.SetAttack(0);
+                            if (Crosshair.Team != Player.Team)
+                            {
+                                Player.SetAttack(1);
+                                Thread.Sleep(50);
+                                Player.SetAttack(0);
+                            }
                         }
                     }
                 }
