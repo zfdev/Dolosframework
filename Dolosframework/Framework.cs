@@ -18,8 +18,6 @@ namespace Dolosframework
         public static PlayerModule LocalPlayer { get; private set; }
         public static EntitesModule Entities { get; private set; }
         public static CrosshairModule Crosshair { get; private set; }
-        public static Bspotted BSpotted { get; set; }
-        public static Triggerbot Triggerbot { get; set; }
 
         public static void OnLoad()
         {
@@ -39,8 +37,7 @@ namespace Dolosframework
             Entities = new EntitesModule();
             LocalPlayer = new PlayerModule();
             Crosshair = new CrosshairModule();
-            BSpotted = new Bspotted();
-            Triggerbot = new Triggerbot();
+
             Memory = new MemorySharp(Process.GetProcessesByName("csgo")[0]);
         }
 
@@ -50,7 +47,7 @@ namespace Dolosframework
             Crosshair.Update();
             LocalPlayer.Update();
 
-            BSpotted.Activated();
+            Bspotted.Activated();
             Triggerbot.Activated();
         }
     }

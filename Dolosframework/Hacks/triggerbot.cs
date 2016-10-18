@@ -7,7 +7,7 @@ namespace Dolosframework.Hacks
 {
     public class Triggerbot : Module
     {
-        public void Activated()
+        public static void Activated()
         {
             foreach (var x in Framework.Crosshair.Crosshair)
             {
