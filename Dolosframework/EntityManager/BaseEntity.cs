@@ -68,5 +68,10 @@ namespace Dolosframework.EntityManager
             bonepos.Z = Framework.Memory.Read<float>(BoneBase + 0x30 * boneId + 0x2C, false);
             return bonepos;
         }
+
+        public static void SetAttack(int value)
+        {
+            Framework.Memory.Write<int>(Framework.ClientDll.BaseAddress + Offsets.LocalPlayer.ForceAttack, value, false);
+        }
     }
 }

@@ -78,10 +78,6 @@
     <ApplicationIcon>icon\Rokey-Smooth-Metal-Software-Pack-Counter-strike.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ColorConsole, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ColorConsole.1.0.1\lib\net40\ColorConsole.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Colorful.Console, Version=1.0.5.0, Culture=neutral, PublicKeyToken=cc1f2a0d977b1e28, processorArchitecture=MSIL">
       <HintPath>..\packages\Colorful.Console.1.0.5\lib\net452\Colorful.Console.dll</HintPath>
       <Private>True</Private>
@@ -105,7 +101,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CrosshairManager\BaseCrosshair.cs" />
     <Compile Include="CrosshairManager\CrosshairModule.cs" />
     <Compile Include="EntityManager\BaseEntity.cs" />
     <Compile Include="EntityManager\EntitesModule.cs" />
@@ -118,7 +113,6 @@
     <Compile Include="Math\Vector3.cs" />
     <Compile Include="Modules.cs" />
     <Compile Include="Offset\Offsets.cs" />
-    <Compile Include="PlayerManager\BasePlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">

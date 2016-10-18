@@ -1,4 +1,5 @@
-﻿using Dolosframework.Offset;
+﻿using Dolosframework.EntityManager;
+using Dolosframework.Offset;
 using System;
 using System.Collections.Generic;
 
@@ -6,7 +7,7 @@ namespace Dolosframework.PlayerManager
 {
     public class PlayerModule : Module
     {
-        public readonly List<BasePlayer> Localplayer = new List<BasePlayer>();
+        public readonly List<BaseEntity> Localplayer = new List<BaseEntity>();
 
         protected override void OnUpdate()
         {
@@ -18,7 +19,7 @@ namespace Dolosframework.PlayerManager
 
             if (baseAddress != IntPtr.Zero)
             {
-                var player = new BasePlayer(baseAddress);
+                var player = new BaseEntity(baseAddress);
                 Localplayer.Add(player);
             }
         }

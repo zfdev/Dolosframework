@@ -1,4 +1,5 @@
-﻿using Dolosframework.Offset;
+﻿using Dolosframework.EntityManager;
+using Dolosframework.Offset;
 using System;
 using System.Collections.Generic;
 
@@ -6,7 +7,7 @@ namespace Dolosframework.CrosshairManager
 {
     public class CrosshairModule : Module
     {
-        public readonly List<BaseCrosshair> Crosshair = new List<BaseCrosshair>();
+        public readonly List<BaseEntity> Crosshair = new List<BaseEntity>();
 
         protected override void OnUpdate()
         {
@@ -18,7 +19,7 @@ namespace Dolosframework.CrosshairManager
             var baseCrosshair = Framework.Memory.Read<IntPtr>(Framework.ClientDll.BaseAddress + Offsets.Entity.EntityList + (crosshairId - 1) * 0x10, false);
 
             if (baseCrosshair == IntPtr.Zero) return;
-            var baseaddress = new BaseCrosshair(baseCrosshair);
+            var baseaddress = new BaseEntity(baseCrosshair);
             Crosshair.Add(baseaddress);
         }
     }

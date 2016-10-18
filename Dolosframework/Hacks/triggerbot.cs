@@ -1,5 +1,6 @@
 ﻿using Colorful;
 using Dolosframework.CrosshairManager;
+using Dolosframework.EntityManager;
 using Dolosframework.Math;
 using System.Linq;
 using System.Threading;
@@ -20,9 +21,9 @@ namespace Dolosframework.Hacks
                         {
                             if (Crosshair.Team != Player.Team)
                             {
-                                Player.SetAttack(1);
+                                BaseEntity.SetAttack(1);
                                 Thread.Sleep(50);
-                                Player.SetAttack(0);
+                                BaseEntity.SetAttack(0);
                             }
                         }
                     }
