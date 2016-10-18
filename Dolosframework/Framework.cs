@@ -24,7 +24,7 @@ namespace Dolosframework
             var processes = Process.GetProcessesByName("csgo");
             while (processes.Length == 0)
             {
-                Console.WriteLine("Waiting for csgo to start");
+                Console.WriteLine(@"Waiting for csgo to start");
             }
 
             while (ClientDll == null || EngineDll == null)
