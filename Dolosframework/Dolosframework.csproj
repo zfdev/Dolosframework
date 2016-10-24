@@ -106,12 +106,12 @@
     <Compile Include="EntityManager\EntitesModule.cs" />
     <Compile Include="Framework.cs" />
     <Compile Include="Hacks\Bspotted.cs" />
-    <Compile Include="Hacks\triggerbot.cs" />
+    <Compile Include="Hacks\TriggerBot.cs" />
     <Compile Include="Math\MathUtils.cs" />
     <Compile Include="Math\Matrix.cs" />
     <Compile Include="Math\Vector2.cs" />
     <Compile Include="Math\Vector3.cs" />
-    <Compile Include="Modules.cs" />
+    <Compile Include="Module.cs" />
     <Compile Include="Offset\Offsets.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

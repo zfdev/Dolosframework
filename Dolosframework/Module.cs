@@ -2,7 +2,7 @@
 {
     public abstract class Module
     {
-        public bool Enabled = true;
+        private const bool Enabled = true;
 
         public void Update()
         {
