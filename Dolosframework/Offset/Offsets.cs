@@ -12,9 +12,9 @@
 
         public static class LocalPlayer
         {
-            public static int dwLocalPlayer = 0xA8F53C;
+            public static int dwLocalPlayer = 0xA9053C;
             public static int m_iCrosshairId = 0xAA64;
-            public static int ForceAttack = 0x2EF0F78;
+            public static int ForceAttack = 0x2EF1F40;
             public static int m_Local = 0x2FAC;
             public static int m_ViewAngles = 0x4D0C;
             public static int m_aimPunchAngle = 0x301C;
@@ -22,7 +22,7 @@
 
         public static class Entity
         {
-            public static int EntityList = 0x4AB0F74;
+            public static int EntityList = 0x4AB1F54;
             public static int m_dwBoneMatrix = 0x2698;
             public static int m_BSpotted = 0x939;
         }
