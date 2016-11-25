@@ -11,24 +11,23 @@ namespace Dolosframework.Hacks
     {
         public static void Activated()
         {
-            if (Vector3.IsKeyDown(0x45) || Vector3.IsKeyDown(0x05))
+
+            foreach (var Crosshair in Framework.Crosshair.Crosshair)
             {
-                foreach (var Crosshair in Framework.Crosshair.Crosshair)
+                if (Crosshair.Team != 0)
                 {
-                    if (Crosshair.Team != 0)
+                    foreach (var Player in Framework.LocalPlayer.Localplayer)
                     {
-                        foreach (var Player in Framework.LocalPlayer.Localplayer)
+                        if (Crosshair.Team != Player.Team)
                         {
-                            if (Crosshair.Team != Player.Team)
-                            {
-                                BaseEntity.SetAttack(1);
-                                Thread.Sleep(50);
-                                BaseEntity.SetAttack(0);
-                            }
+                            BaseEntity.SetAttack(1);
+                            Thread.Sleep(750);
+                            BaseEntity.SetAttack(0);
                         }
                     }
                 }
             }
+
         }
     }
 }
