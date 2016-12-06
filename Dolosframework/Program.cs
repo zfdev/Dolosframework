@@ -9,7 +9,6 @@ namespace Dolosframework
         private static void Main(string[] args)
         {
             Console.WriteAscii("#GSH", Color.Gold);
-
             Console.WriteLine("dolosframework", Color.DarkGoldenrod);
             Framework.OnLoad();
 
@@ -17,9 +16,6 @@ namespace Dolosframework
             {
                 Framework.Loop();
             }
-
-            // Console.ReadKey();
-            // ReSharper disable once FunctionNeverReturns
         }
     }
 }
