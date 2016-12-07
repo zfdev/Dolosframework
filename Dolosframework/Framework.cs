@@ -30,20 +30,22 @@ namespace Dolosframework
 
             while (ClientDll == null || EngineDll == null)
             {
-                var sharp = new MemorySharp(Process.GetProcessesByName("csgo")[0]);
-                ClientDll = sharp.Modules.RemoteModules.FirstOrDefault(f => f.Name == "client.dll");
-                EngineDll = sharp.Modules.RemoteModules.FirstOrDefault(f => f.Name == "engine.dll");
+                var Memory = new MemorySharp(processes[0]);
+                ClientDll = Memory.Modules.RemoteModules.FirstOrDefault(f => f.Name == "client.dll");
+                EngineDll = Memory.Modules.RemoteModules.FirstOrDefault(f => f.Name == "engine.dll");
             }
 
             Entities = new EntitesModule();
             LocalPlayer = new PlayerModule();
             Crosshair = new CrosshairModule();
             Triggerbot = new TriggerBot();
-            Memory = new MemorySharp(Process.GetProcessesByName("csgo")[0]);
+           
         }
 
         internal static void Loop()
         {
+           
+           
             Entities.Update();
             Crosshair.Update();
             LocalPlayer.Update();
