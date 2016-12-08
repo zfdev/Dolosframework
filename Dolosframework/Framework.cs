@@ -7,6 +7,7 @@ using Dolosframework.PlayerManager;
 using System;
 using System.Diagnostics;
 using System.Linq;
+using Dolosframework.Offset;
 
 namespace Dolosframework
 {
@@ -44,14 +45,20 @@ namespace Dolosframework
 
         internal static void Loop()
         {
-           
-           
-            Entities.Update();
-            Crosshair.Update();
-            LocalPlayer.Update();
 
-            Bspotted.Activated();
-            TriggerBot.Activated();
+            var x = Framework.Memory.Read<IntPtr>(Framework.EngineDll.BaseAddress + Offsets.Misc.DwClientState, false);
+            var f = Memory.Read<int>(x + 0x100, false);
+
+            if (f == 6)
+            {
+                LocalPlayer.Update();
+                Entities.Update();
+                Crosshair.Update();
+
+
+                Bspotted.Activated();
+                TriggerBot.Activated();
+            }
         }
     }
 }

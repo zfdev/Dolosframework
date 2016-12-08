@@ -86,6 +86,10 @@
       <HintPath>..\packages\Fasm.NET.1.70.03.2\lib\Fasm.NET.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="MemorySharp, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MemorySharp.1.2.0\lib\MemorySharp.dll</HintPath>
       <Private>True</Private>
@@ -97,6 +101,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

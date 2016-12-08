@@ -19,8 +19,10 @@ namespace Dolosframework.PlayerManager
 
             if (baseAddress != IntPtr.Zero)
             {
-                var player = new BaseEntity(baseAddress);
-                Localplayer.Add(player);
+        
+                    var player = new BaseEntity(baseAddress);
+                    Localplayer.Add(player);
+               
             }
         }
     }

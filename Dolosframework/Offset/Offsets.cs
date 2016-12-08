@@ -7,7 +7,7 @@
             public static int Health = 0xFC;
             public static int Team = 0xF0;
             public static int m_vecOrigin = 0x134;
-            public static int DwClientState = 0x5C02C4;
+            public static int DwClientState = 0x5C32C4;
         }
 
         public static class LocalPlayer

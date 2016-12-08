@@ -29,6 +29,13 @@ namespace Dolosframework.EntityManager
         public bool Spotted => Framework.Memory.Read<bool>(baseAddress + Offsets.Entity.m_BSpotted, false);
 
         /// <summary>
+        /// return the clientstate
+        /// </summary>
+        public IntPtr ClientState => Framework.Memory.Read<IntPtr>(Framework.EngineDll.BaseAddress + Offsets.Misc.DwClientState, false);
+
+
+        public IntPtr InGame => Framework.Memory.Read<IntPtr>(ClientState + 0xE8);
+        /// <summary>
         ///Set Enemys as spotted on the radar
         /// </summary>
         /// <param name="value">1 to set them as spotted 0 to remove them as spotted</param>
