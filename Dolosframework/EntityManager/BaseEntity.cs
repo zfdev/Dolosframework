@@ -33,13 +33,19 @@ namespace Dolosframework.EntityManager
         /// </summary>
         public IntPtr ClientState => Framework.Memory.Read<IntPtr>(Framework.EngineDll.BaseAddress + Offsets.Misc.DwClientState, false);
 
+        /// <summary>
+        /// Return flags for bunnyhop
+        /// </summary>
+        public byte Flags => Framework.Memory.Read<byte>(baseAddress + Offsets.Misc.fFlags, false);
 
-        public IntPtr InGame => Framework.Memory.Read<IntPtr>(ClientState + 0xE8);
+
+        public void SetJump(int value) => Framework.Memory.Write(baseAddress + Offsets.LocalPlayer.ForceJump, value, false);
+       
         /// <summary>
         ///Set Enemys as spotted on the radar
         /// </summary>
         /// <param name="value">1 to set them as spotted 0 to remove them as spotted</param>
-        public void SetSpotted(int value) => Framework.Memory.Write<int>(baseAddress + Offsets.Entity.m_BSpotted, value, false);
+        public void SetSpotted(int value) => Framework.Memory.Write(baseAddress + Offsets.Entity.m_BSpotted, value, false);
 
         /// <summary>
         /// Returns the entities bonebase

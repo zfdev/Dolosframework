@@ -20,6 +20,7 @@ namespace Dolosframework
         public static EntitesModule Entities { get; private set; }
         public static CrosshairModule Crosshair { get; private set; }
         private static TriggerBot Triggerbot { get; set; }
+        
 
         public static void OnLoad()
         {
@@ -40,6 +41,7 @@ namespace Dolosframework
             LocalPlayer = new PlayerModule();
             Crosshair = new CrosshairModule();
             Triggerbot = new TriggerBot();
+  
             Memory = new MemorySharp(processes[0]);
         }
 
@@ -55,7 +57,7 @@ namespace Dolosframework
                 Entities.Update();
                 Crosshair.Update();
 
-
+                Bunnyhop.Activated();
                 Bspotted.Activated();
                 TriggerBot.Activated();
             }
