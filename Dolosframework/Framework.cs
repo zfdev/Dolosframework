@@ -48,7 +48,7 @@ namespace Dolosframework
         internal static void Loop()
         {
 
-            var x = Framework.Memory.Read<IntPtr>(Framework.EngineDll.BaseAddress + Offsets.Misc.DwClientState, false);
+            var x = Framework.Memory.Read<IntPtr>(Framework.EngineDll.BaseAddress + Offsets.Signatures.dwClientState, false);
             var f = Memory.Read<int>(x + 0x100, false);
 
             if (f == 6)
@@ -56,6 +56,12 @@ namespace Dolosframework
                 LocalPlayer.Update();
                 Entities.Update();
                 Crosshair.Update();
+
+                //foreach (var gg in Framework.Crosshair.Crosshair)
+                //{
+                //   var gx = gg.BonePosition(6);
+                //    Console.WriteLine(gx.ToString());
+                //}
 
                 Bunnyhop.Activated();
                 Bspotted.Activated();

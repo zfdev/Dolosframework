@@ -15,7 +15,7 @@ namespace Dolosframework.PlayerManager
 
             Localplayer.Clear();
 
-            var baseAddress = Framework.Memory.Read<IntPtr>(Framework.ClientDll.BaseAddress + Offsets.LocalPlayer.dwLocalPlayer, false);
+            var baseAddress = Framework.Memory.Read<IntPtr>(Framework.ClientDll.BaseAddress + Offsets.Signatures.dwLocalPlayer, false);
 
             if (baseAddress != IntPtr.Zero)
             {
