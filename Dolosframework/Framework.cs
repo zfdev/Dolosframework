@@ -28,6 +28,10 @@ namespace Dolosframework
             while (processes.Length == 0)
             {
                 Console.WriteLine(@"Waiting for csgo to start");
+                if (processes.Length == 1)
+                {
+                    break;
+                }
             }
 
             while (ClientDll == null || EngineDll == null)
@@ -48,7 +52,7 @@ namespace Dolosframework
         internal static void Loop()
         {
 
-            var x = Framework.Memory.Read<IntPtr>(Framework.EngineDll.BaseAddress + Offsets.Signatures.dwClientState, false);
+            var x = Memory.Read<IntPtr>(EngineDll.BaseAddress + Offsets.signatures.dwClientState, false);
             var f = Memory.Read<int>(x + 0x100, false);
 
             if (f == 6)
@@ -57,15 +61,21 @@ namespace Dolosframework
                 Entities.Update();
                 Crosshair.Update();
 
-                //foreach (var gg in Framework.Crosshair.Crosshair)
+                //foreach (var enemy in Framework.Crosshair.Crosshair)
                 //{
-                //   var gx = gg.BonePosition(6);
-                //    Console.WriteLine(gx.ToString());
+                //    var enemyhead = enemy.BonePosition(6);
+
+                //    foreach (var localplayer in Framework.LocalPlayer.Localplayer)
+                //    {
+                //        var ff = localplayer.viewangles;
+                //        Console.WriteLine(ff.ToString());
+                //    }
                 //}
 
                 Bunnyhop.Activated();
                 Bspotted.Activated();
                 TriggerBot.Activated();
+
             }
         }
     }

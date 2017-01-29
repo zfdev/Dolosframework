@@ -12,6 +12,7 @@
 
         protected virtual void OnUpdate()
         {
+
         }
     }
 }

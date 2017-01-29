@@ -15,8 +15,8 @@ namespace Dolosframework.EntityManager
             Entities.Clear();
             for (var index = 0; index < 32; index++)
             {
-                var localPlayer = Framework.Memory.Read<IntPtr>(Framework.ClientDll.BaseAddress + Offsets.Signatures.dwLocalPlayer, false);
-                var baseAddress = Framework.Memory.Read<IntPtr>(Framework.ClientDll.BaseAddress + Offsets.Signatures.dwEntityList + (index) * 0x10, false);
+                var localPlayer = Framework.Memory.Read<IntPtr>(Framework.ClientDll.BaseAddress + Offsets.signatures.dwLocalPlayer, false);
+                var baseAddress = Framework.Memory.Read<IntPtr>(Framework.ClientDll.BaseAddress + Offsets.signatures.dwEntityList + (index) * 0x10, false);
                 if (baseAddress == IntPtr.Zero || baseAddress == localPlayer) continue;
                 var entity = new BaseEntity(baseAddress);
 

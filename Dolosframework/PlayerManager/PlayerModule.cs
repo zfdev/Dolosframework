@@ -15,15 +15,11 @@ namespace Dolosframework.PlayerManager
 
             Localplayer.Clear();
 
-            var baseAddress = Framework.Memory.Read<IntPtr>(Framework.ClientDll.BaseAddress + Offsets.Signatures.dwLocalPlayer, false);
+            var baseAddress = Framework.Memory.Read<IntPtr>(Framework.ClientDll.BaseAddress + Offsets.signatures.dwLocalPlayer, false);
 
-            if (baseAddress != IntPtr.Zero)
-            {
-        
-                    var player = new BaseEntity(baseAddress);
-                    Localplayer.Add(player);
-               
-            }
+            if (baseAddress == IntPtr.Zero) return;
+            var player = new BaseEntity(baseAddress);
+            Localplayer.Add(player);
         }
     }
 }

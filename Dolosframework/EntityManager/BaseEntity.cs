@@ -16,58 +16,91 @@ namespace Dolosframework.EntityManager
         /// <summary>
         /// Returns the entities health
         /// </summary>
-        public int Health => Framework.Memory.Read<int>(baseAddress + Offsets.Netvars.m_iHealth, false);
+        public int Health => Framework.Memory.Read<int>(baseAddress + Offsets.netvars.m_iHealth, false);
 
         /// <summary>
         /// Returns the entities team
         /// </summary>
-        public int Team => Framework.Memory.Read<int>(baseAddress + Offsets.Netvars.m_iTeamNum, false);
+        public int Team => Framework.Memory.Read<int>(baseAddress + Offsets.netvars.m_iTeamNum, false);
 
         /// <summary>
         /// Returns true if they are spotted false if they are not
         /// </summary>
-        public bool Spotted => Framework.Memory.Read<bool>(baseAddress + Offsets.Netvars.m_bSpotted, false);
+        public bool Spotted => Framework.Memory.Read<bool>(baseAddress + Offsets.netvars.m_bSpotted, false);
 
         /// <summary>
         /// return the clientstate
         /// </summary>
-        public IntPtr ClientState => Framework.Memory.Read<IntPtr>(Framework.EngineDll.BaseAddress + Offsets.Signatures.dwClientState, false);
+        public IntPtr ClientState => Framework.Memory.Read<IntPtr>(Framework.EngineDll.BaseAddress + Offsets.signatures.dwClientState, false);
 
         /// <summary>
         /// Return flags for bunnyhop
         /// </summary>
-        public byte Flags => Framework.Memory.Read<byte>(baseAddress + Offsets.Netvars.m_fFlags, false);
+        public byte Flags => Framework.Memory.Read<byte>(baseAddress + Offsets.netvars.m_fFlags, false);
 
 
-        public void SetJump(int value) => Framework.Memory.Write(baseAddress + Offsets.Signatures.dwForceJump, value, false);
+        public IntPtr LocalPlayer => Framework.Memory.Read<IntPtr>(Framework.ClientDll.BaseAddress + Offsets.signatures.dwLocalPlayer, false);
+
+
+        public Vector3 Origin => Framework.Memory.Read<Vector3>(baseAddress + Offsets.netvars.m_vecOrigin, false);
+
+        public Vector3 eyepos => Framework.Memory.Read<Vector3>(LocalPlayer + Offsets.netvars.m_vecViewOffset, false);
+
+
+        public Vector3 viewangles
+            => Framework.Memory.Read<Vector3>(ClientState + Offsets.signatures.dwClientState_ViewAngles, false);
+ 
+
+        public void SetJump(int value) => Framework.Memory.Write(baseAddress + Offsets.signatures.dwForceJump, value, false);
        
         /// <summary>
         ///Set Enemys as spotted on the radar
         /// </summary>
         /// <param name="value">1 to set them as spotted 0 to remove them as spotted</param>
-        public void SetSpotted(int value) => Framework.Memory.Write(baseAddress + Offsets.Netvars.m_bSpotted, value, false);
+        public void SetSpotted(int value) => Framework.Memory.Write(baseAddress + Offsets.netvars.m_bSpotted, value, false);
 
         /// <summary>
         /// Returns the entities bonebase
         /// </summary>
         ///
-        public IntPtr BoneBase => Framework.Memory.Read<IntPtr>(baseAddress + Offsets.Netvars.m_dwBoneMatrix, false);
+        public IntPtr BoneBase => Framework.Memory.Read<IntPtr>(baseAddress + Offsets.netvars.m_dwBoneMatrix, false);
 
         /// <summary>
         /// Returns the entities position
         /// </summary>
-        public Vector3 Position => Framework.Memory.Read<Vector3>(baseAddress + Offsets.Netvars.m_vecOrigin, false);
+        public Vector3 Position => Framework.Memory.Read<Vector3>(baseAddress + Offsets.netvars.m_vecOrigin, false);
+
+        public Vector3 testx
+        {
+            get
+            {
+                var x = Origin;
+                var y = eyepos;
+
+                Vector3 Eyepos;
+
+                Eyepos.X = x.X + y.X;
+                Eyepos.Y = x.Y + y.Y;
+                Eyepos.Z = x.Z + y.Z;
+
+                return Eyepos;
+
+            }            
+        }
+
 
         public float Distance
         {
             get
             {
-                var xx = Framework.Memory.Read<IntPtr>(Framework.ClientDll.BaseAddress + Offsets.Signatures.dwLocalPlayer, false);
-                var positionLocal = Framework.Memory.Read<Vector3>(xx + Offsets.Netvars.m_vecOrigin, false);
+                var xx = Framework.Memory.Read<IntPtr>(Framework.ClientDll.BaseAddress + Offsets.signatures.dwLocalPlayer, false);
+                var positionLocal = Framework.Memory.Read<Vector3>(xx + Offsets.netvars.m_vecOrigin, false);
 
                 return positionLocal.DistanceTo(Position);
             }
         }
+
+
 
         /// <summary>
         /// Returns the entities position of the bone they want [6 head]
@@ -94,7 +127,7 @@ namespace Dolosframework.EntityManager
 
         public static void SetAttack(int value)
         {
-            Framework.Memory.Write<int>(Framework.ClientDll.BaseAddress + Offsets.Signatures.dwForceAttack, value, false);
+            Framework.Memory.Write<int>(Framework.ClientDll.BaseAddress + Offsets.signatures.dwForceAttack, value, false);
         }
     }
 }
