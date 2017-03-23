@@ -8,10 +8,10 @@ namespace Dolosframework.Math
     /// </summary>
     public struct Vector3
     {
-        [DllImport("user32.dll")]
-        private static extern short GetAsyncKeyState(int vKey);
+        [DllImport("USER32.dll")]
+        public static extern short GetKeyState(int nVirtKey);
 
-        public static bool IsKeyDown(int key) => GetAsyncKeyState(key) != 0;
+        public static bool IsKeyDown(int key) => GetKeyState(key) != 0;
 
         #region VARIABLES
 

@@ -11,7 +11,8 @@ namespace Dolosframework.Hacks
     {
         public static void Activated()
         {
-            if (Vector3.IsKeyDown(0x45) || Vector3.IsKeyDown(0x05) || Vector3.IsKeyDown(0x06))
+            var IsDown = (Vector3.GetKeyState(0x06) & 0xFF00) != 0;
+            if (IsDown)
             {
                 foreach (var Crosshair in Framework.Crosshair.Crosshair)
                 {

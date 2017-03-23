@@ -1,13 +1,14 @@
-﻿using Binarysharp.MemoryManagement;
+﻿using System;
+using System.Diagnostics;
+using System.Linq;
+using Binarysharp.MemoryManagement;
 using Binarysharp.MemoryManagement.Modules;
 using Dolosframework.CrosshairManager;
 using Dolosframework.EntityManager;
 using Dolosframework.Hacks;
-using Dolosframework.PlayerManager;
-using System;
-using System.Diagnostics;
-using System.Linq;
+using Dolosframework.Math;
 using Dolosframework.Offset;
+using Dolosframework.PlayerManager;
 
 namespace Dolosframework
 {
@@ -19,8 +20,7 @@ namespace Dolosframework
         public static PlayerModule LocalPlayer { get; private set; }
         public static EntitesModule Entities { get; private set; }
         public static CrosshairModule Crosshair { get; private set; }
-        private static TriggerBot Triggerbot { get; set; }
-        
+
 
         public static void OnLoad()
         {
@@ -29,9 +29,7 @@ namespace Dolosframework
             {
                 Console.WriteLine(@"Waiting for csgo to start");
                 if (processes.Length == 1)
-                {
                     break;
-                }
             }
 
             while (ClientDll == null || EngineDll == null)
@@ -44,37 +42,49 @@ namespace Dolosframework
             Entities = new EntitesModule();
             LocalPlayer = new PlayerModule();
             Crosshair = new CrosshairModule();
-            Triggerbot = new TriggerBot();
-  
             Memory = new MemorySharp(processes[0]);
         }
 
         internal static void Loop()
         {
-
             var x = Memory.Read<IntPtr>(EngineDll.BaseAddress + Offsets.signatures.dwClientState, false);
             var f = Memory.Read<int>(x + 0x100, false);
+
 
             if (f == 6)
             {
                 LocalPlayer.Update();
                 Entities.Update();
                 Crosshair.Update();
-
-                //foreach (var enemy in Framework.Crosshair.Crosshair)
+                // TODO!! Make better aimbot
+                //foreach (var enemies in Entities.Entities)
+                //foreach (var player in LocalPlayer.Localplayer)
                 //{
-                //    var enemyhead = enemy.BonePosition(6);
+                //    //Console.WriteLine(player.CurrentWeapon);
+                //    if (enemies.Health <= 1) continue;
+                //    var currentViewAngle = player.ViewAngles;
+                //    var localHeadPos = player.LocalEyePosition;
+                //    var enemyHeadPos = enemies.BonePosition(8);
 
-                //    foreach (var localplayer in Framework.LocalPlayer.Localplayer)
-                //    {
-                //        var ff = localplayer.viewangles;
-                //        Console.WriteLine(ff.ToString());
+                //    var calculatedAngle = localHeadPos.CalcAngle(enemyHeadPos);
+                //    var clampedAngle = calculatedAngle.ClampAngle();
+                //    var Fov =
+                //        System.Math.Sqrt(System.Math.Pow(clampedAngle.X - currentViewAngle.X, 2) +
+                //                         System.Math.Pow(clampedAngle.Y - currentViewAngle.Y, 2));
+                //    var IsDown = (Vector3.GetKeyState(0x01) & 0xFF00) != 0;
+                //    if (!(Fov < 2)) continue;
+                //        if (IsDown)
+                //        {
+
+
+
+                //        }
                 //    }
-                //}
 
-                Bunnyhop.Activated();
+
+                //Bunnyhop.Activated();
+                //TriggerBot.Activated();
                 Bspotted.Activated();
-                TriggerBot.Activated();
 
             }
         }

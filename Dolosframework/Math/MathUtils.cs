@@ -174,6 +174,8 @@
 
         public static double AngleFromXY(this Vector3 From, Vector3 To) => System.Math.Atan((To.Z - From.Z) / System.Math.Sqrt(System.Math.Pow(To.X - From.X, 2) + System.Math.Pow(To.Y - From.Y, 2))) % System.Math.PI;
 
+        public static double Fov(this Vector3 From, Vector3 To) => System.Math.Sqrt(System.Math.Pow(From.X - To.X, 2) + System.Math.Pow(From.Y - To.Y,2));
+
         public static Vector3 Project(this Vector3 From, float InXY, float FromXY, float Distance) => new Vector3(
             (float)System.Math.Cos(InXY) * Distance + From.X,
             (float)System.Math.Sin(InXY) * Distance + From.Y,
@@ -193,14 +195,14 @@
         /// </summary>
         /// <param name="deg">Angle in degrees</param>
         /// <returns>Angle in radians</returns>
-        public static float DegreesToRadians(float deg) { return (float)(deg * DEG_2_RAD); }
+        public static float DegreesToRadians(float deg) => (float)(deg * DEG_2_RAD);
 
         /// <summary>
         /// Converts the given angle in radians to degrees
         /// </summary>
         /// <param name="rad">Angle in radians</param>
         /// <returns>Angle in degrees</returns>
-        public static float RadiansToDegrees(float rad) { return (float)(rad * RAD_2_DEG); }
+        public static float RadiansToDegrees(float rad) => (float)(rad * RAD_2_DEG);
 
         /// <summary>
         /// Returns whether the given point is within a circle of the given radius around the given center

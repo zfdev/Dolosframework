@@ -1,7 +1,5 @@
-﻿using System;
-using System.Drawing;
-using System.Windows.Forms;
-using Console = Colorful.Console;
+﻿using System.Drawing;
+using Colorful;
 
 namespace Dolosframework
 {
@@ -9,16 +7,10 @@ namespace Dolosframework
     {
         private static void Main(string[] args)
         {
-
-
-            Console.WriteAscii("#GSH", Color.Gold);
-            Console.WriteLine("dolosframework", Color.DarkGoldenrod);
+            Console.WriteAscii("HA! GAAY!", Color.Gold);
             Framework.OnLoad();
-
             while (true)
-            {
-               Framework.Loop();
-            }
+                Framework.Loop();
         }
     }
 }

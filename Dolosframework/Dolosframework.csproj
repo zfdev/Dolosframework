@@ -116,6 +116,7 @@
     <Compile Include="Framework.cs" />
     <Compile Include="Hacks\Bspotted.cs" />
     <Compile Include="Hacks\Bunnyhop.cs" />
+    <Compile Include="Hacks\recoil.cs" />
     <Compile Include="Hacks\TriggerBot.cs" />
     <Compile Include="Math\MathUtils.cs" />
     <Compile Include="Math\Matrix.cs" />

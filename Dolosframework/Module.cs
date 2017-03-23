@@ -7,12 +7,11 @@
         public void Update()
         {
             if (Enabled)
-                this.OnUpdate();
+                OnUpdate();
         }
 
         protected virtual void OnUpdate()
         {
-
         }
     }
 }

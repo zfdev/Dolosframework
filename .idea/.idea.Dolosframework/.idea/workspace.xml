@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e383c8d4-e51a-4d5d-9945-cda40f3760ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Dolosframework/.idea/contentModel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Dolosframework/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Dolosframework/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Dolosframework/riderModule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Dolosframework/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Dolosframework/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dolosframework/EntityManager/BaseEntity.cs" afterPath="$PROJECT_DIR$/Dolosframework/EntityManager/BaseEntity.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dolosframework/Framework.cs" afterPath="$PROJECT_DIR$/Dolosframework/Framework.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dolosframework/Module.cs" afterPath="$PROJECT_DIR$/Dolosframework/Module.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dolosframework/Hacks/triggerbot.cs" afterPath="$PROJECT_DIR$/Dolosframework/Hacks/triggerbot.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dolosframework/Math/MathUtils.cs" afterPath="$PROJECT_DIR$/Dolosframework/Math/MathUtils.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dolosframework/Math/Vector3.cs" afterPath="$PROJECT_DIR$/Dolosframework/Math/Vector3.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dolosframework/Offset/Offsets.cs" afterPath="$PROJECT_DIR$/Dolosframework/Offset/Offsets.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,26 +20,198 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Framework.cs" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Framework.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dolosframework/Framework.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="70" column="13" lean-forward="false" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+            <state relative-caret-position="308">
+              <caret line="73" column="65" lean-forward="false" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
               <folding>
-                <marker date="1484907527580" expanded="true" signature="6:306" ph="..." />
-                <marker date="1484907527580" expanded="true" signature="332:2624" ph="{...}" />
-                <marker date="1484907527580" expanded="true" signature="368:2622" ph="{...}" />
-                <marker date="1484907527580" expanded="true" signature="882:1686" ph="{...}" />
-                <marker date="1484907527580" expanded="true" signature="998:1091" ph="{...}" />
-                <marker date="1484907527580" expanded="true" signature="1151:1440" ph="{...}" />
-                <marker date="1484907527580" expanded="true" signature="1723:2616" ph="{...}" />
-                <marker date="1484907527580" expanded="true" signature="1941:2606" ph="{...}" />
-                <marker date="1484907527580" expanded="true" signature="2134:2475" ph="{...}" />
-                <marker date="1484907527580" expanded="true" signature="2295:2455" ph="{...}" />
+                <marker date="1486555902362" expanded="true" signature="6:284" ph="..." />
+                <marker date="1486555902362" expanded="true" signature="6:357" ph="..." />
+                <marker date="1486555902362" expanded="true" signature="383:4586" ph="{...}" />
+                <marker date="1486555902362" expanded="true" signature="419:4584" ph="{...}" />
+                <marker date="1486555902362" expanded="true" signature="866:1731" ph="{...}" />
+                <marker date="1486555902362" expanded="true" signature="982:1181" ph="{...}" />
+                <marker date="1486555902362" expanded="true" signature="1104:1167" ph="{...}" />
+                <marker date="1486555902362" expanded="true" signature="1241:1530" ph="{...}" />
+                <marker date="1486555902362" expanded="true" signature="4093:4370" ph="{...}" />
+                <marker date="1486555902362" expanded="true" signature="4372:4393" ph="{...}" />
+                <marker date="1486555902362" expanded="true" signature="4372:4411" ph="{...}" />
+                <marker date="1486555902362" expanded="true" signature="4372:4568" ph="{...}" />
+                <marker date="1486555902362" expanded="true" signature="4372:4578" ph="{...}" />
+                <marker date="1486555902362" expanded="true" signature="4372:4584" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TriggerBot.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dolosframework/Hacks/TriggerBot.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+              <folding>
+                <marker date="1486244728676" expanded="true" signature="6:160" ph="..." />
+                <marker date="1486244728676" expanded="true" signature="231:1041" ph="{...}" />
+                <marker date="1486244728676" expanded="true" signature="276:1035" ph="{...}" />
+                <marker date="1486244728676" expanded="true" signature="378:1025" ph="{...}" />
+                <marker date="1486244728676" expanded="true" signature="465:1011" ph="{...}" />
+                <marker date="1486244728676" expanded="true" signature="528:993" ph="{...}" />
+                <marker date="1486244728676" expanded="true" signature="632:971" ph="{...}" />
+                <marker date="1486244728676" expanded="true" signature="721:945" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Microsoft.Common.CurrentVersion.targets" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files (x86)/MSBuild/14.0/Bin/Microsoft.Common.CurrentVersion.targets">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52751">
+              <caret line="1819" column="4" lean-forward="false" selection-start-line="1819" selection-start-column="4" selection-end-line="1819" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vector3.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dolosframework/Math/Vector3.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2206">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1486159864870" expanded="true" signature="6:51" ph="..." />
+                <marker date="1486159864870" expanded="true" signature="82:4737" ph="{...}" />
+                <marker date="1486159864870" expanded="true" signature="89:213" ph="/// Class that holds information about a 3d-coordinate and offers some basic operations ... " />
+                <marker date="1486159864870" expanded="true" signature="239:4735" ph="{...}" />
+                <marker date="1486159864870" expanded="true" signature="424:544" ph="VARIABLES" />
+                <marker date="1486159864870" expanded="true" signature="554:1210" ph="PROPERTIES" />
+                <marker date="1486159864870" expanded="true" signature="582:663" ph="/// Returns a new Vector3 at (0,0,0) ... " />
+                <marker date="1486159864870" expanded="true" signature="733:814" ph="/// Returns a new Vector3 at (1,0,0) ... " />
+                <marker date="1486159864870" expanded="true" signature="885:966" ph="/// Returns a new Vector3 at (0,1,0) ... " />
+                <marker date="1486159864870" expanded="true" signature="1037:1118" ph="/// Returns a new Vector3 at (0,0,1) ... " />
+                <marker date="1486159864870" expanded="true" signature="1220:2102" ph="CONSTRUCTOR" />
+                <marker date="1486159864870" expanded="true" signature="1249:1457" ph="/// Initializes a new Vector3 using the given values ... " />
+                <marker date="1486159864870" expanded="true" signature="1507:1599" ph="{...}" />
+                <marker date="1486159864870" expanded="true" signature="1609:1765" ph="/// Initializes a new Vector3 by copying the values of the given Vector3 ... " />
+                <marker date="1486159864870" expanded="true" signature="1843:1987" ph="/// Initializes a new Vector3 using the given float-array ... " />
+                <marker date="1486159864870" expanded="true" signature="2112:3154" ph="METHODS" />
+                <marker date="1486159864870" expanded="true" signature="2137:2252" ph="/// Returns the length of this Vector3 ... " />
+                <marker date="1486159864870" expanded="true" signature="2408:2589" ph="/// Returns the distance from this Vector3 to the given Vector3 ... " />
+                <marker date="1486159864870" expanded="true" signature="2636:2700" ph="{...}" />
+                <marker date="1486159864870" expanded="true" signature="2749:2869" ph="{...}" />
+                <marker date="1486159864870" expanded="true" signature="3164:4729" ph="OPERATORS" />
+                <marker date="1486159864870" expanded="true" signature="3779:4699" ph="{...}" />
+                <marker date="1486159864870" expanded="true" signature="3805:4191" ph="{...}" />
+                <marker date="1486159864870" expanded="true" signature="3846:4177" ph="{...}" />
+                <marker date="1486159864870" expanded="true" signature="4207:4689" ph="{...}" />
+                <marker date="1486159864870" expanded="true" signature="4248:4675" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MathUtils.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dolosframework/Math/MathUtils.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4756">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1486112370979" expanded="true" signature="29:9291" ph="{...}" />
+                <marker date="1486112370979" expanded="true" signature="36:137" ph="/// A utility-class that offers several mathematical algorithms. ... " />
+                <marker date="1486112370979" expanded="true" signature="171:9289" ph="{...}" />
+                <marker date="1486112370979" expanded="true" signature="186:380" ph="VARIABLES" />
+                <marker date="1486112370979" expanded="true" signature="390:9283" ph="METHODS" />
+                <marker date="1486112370979" expanded="true" signature="415:835" ph="/// Translates an array of 3d-coordinates to screen-coodinates ... " />
+                <marker date="1486112370979" expanded="true" signature="950:1185" ph="{...}" />
+                <marker date="1486112370979" expanded="true" signature="1195:1612" ph="/// Translates a 3d-coordinate to a screen-coodinate ... " />
+                <marker date="1486112370979" expanded="true" signature="1717:2675" ph="{...}" />
+                <marker date="1486112370979" expanded="true" signature="1937:2632" ph="{...}" />
+                <marker date="1486112370979" expanded="true" signature="2685:2977" ph="/// Applies (adds) an offset to an array of 3d-coordinates ... " />
+                <marker date="1486112370979" expanded="true" signature="3069:3205" ph="{...}" />
+                <marker date="1486112370979" expanded="true" signature="3215:3498" ph="/// Copies an array of vectors to a new array containing identical, new Vector3s (deep-copy) ... " />
+                <marker date="1486112370979" expanded="true" signature="3565:3763" ph="{...}" />
+                <marker date="1486112370979" expanded="true" signature="3773:4120" ph="/// Rotates a given point around another point ... " />
+                <marker date="1486112370979" expanded="true" signature="4233:4930" ph="{...}" />
+                <marker date="1486112370979" expanded="true" signature="4511:4919" ph="{...}" />
+                <marker date="1486112370979" expanded="true" signature="4940:5109" ph="/// Clamps a given angle ... " />
+                <marker date="1486112370979" expanded="true" signature="5170:5973" ph="{...}" />
+                <marker date="1486112370979" expanded="true" signature="5193:5632" ph="/* if (qaAng.X &gt; 89.0f &amp;&amp; qaAng.X &lt;= 180.0f) ... */" />
+                <marker date="1486112370979" expanded="true" signature="5983:6300" ph="/// Calculates an angle that aims from the given source-Vector3 to the given destination-Vector3 ... " />
+                <marker date="1486112370979" expanded="true" signature="6371:6826" ph="{...}" />
+                <marker date="1486112370979" expanded="true" signature="7655:8018" ph="/// Smooths an angle from src to dest ... " />
+                <marker date="1486112370979" expanded="true" signature="8160:8358" ph="/// Converts the given angle in degrees to radians ... " />
+                <marker date="1486112370979" expanded="true" signature="8461:8659" ph="/// Converts the given angle in radians to degrees ... " />
+                <marker date="1486112370979" expanded="true" signature="8762:9113" ph="/// Returns whether the given point is within a circle of the given radius around the given center ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseEntity.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dolosframework/EntityManager/BaseEntity.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="20" column="112" lean-forward="false" selection-start-line="20" selection-start-column="112" selection-end-line="20" selection-end-column="112" />
+              <folding>
+                <marker date="1486254355902" expanded="true" signature="6:69" ph="..." />
+                <marker date="1486254355902" expanded="true" signature="139:5055" ph="{...}" />
+                <marker date="1486254355902" expanded="true" signature="237:301" ph="{...}" />
+                <marker date="1486254355902" expanded="true" signature="335:675" ph="{...}" />
+                <marker date="1486254355902" expanded="true" signature="361:665" ph="{...}" />
+                <marker date="1486254355902" expanded="true" signature="686:762" ph="/// Returns the entities health ... " />
+                <marker date="1486254355902" expanded="true" signature="877:951" ph="/// Returns the entities team ... " />
+                <marker date="1486254355902" expanded="true" signature="1065:1168" ph="/// Returns true if they are spotted false if they are not ... " />
+                <marker date="1486254355902" expanded="true" signature="1287:1358" ph="/// return the clientstate ... " />
+                <marker date="1486254355902" expanded="true" signature="1511:1585" ph="/// Return flags for bunnyhop ... " />
+                <marker date="1486254355902" expanded="true" signature="2635:2810" ph="///Set Enemys as spotted on the radar ... " />
+                <marker date="1486254355902" expanded="true" signature="2945:3035" ph="/// Returns the entities bonebase ... " />
+                <marker date="1486254355902" expanded="true" signature="3163:3241" ph="/// Returns the entities position ... " />
+                <marker date="1486254355902" expanded="true" signature="3399:3707" ph="{...}" />
+                <marker date="1486254355902" expanded="true" signature="3425:3697" ph="{...}" />
+                <marker date="1486254355902" expanded="true" signature="3739:4103" ph="{...}" />
+                <marker date="1486254355902" expanded="true" signature="3765:4093" ph="{...}" />
+                <marker date="1486254355902" expanded="true" signature="4115:4224" ph="/// Returns the entities position of the bone they want [6 head] ... " />
+                <marker date="1486254355902" expanded="true" signature="4272:4855" ph="{...}" />
+                <marker date="1486254355902" expanded="true" signature="4353:4506" ph="{...}" />
+                <marker date="1486254355902" expanded="true" signature="4904:5047" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntitesModule.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dolosframework/EntityManager/EntitesModule.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+              <folding>
+                <marker date="1485595793679" expanded="true" signature="6:76" ph="..." />
+                <marker date="1485595793679" expanded="true" signature="158:932" ph="{...}" />
+                <marker date="1485595793679" expanded="true" signature="284:926" ph="{...}" />
+                <marker date="1485595793679" expanded="true" signature="407:916" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FodyWeavers.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dolosframework/FodyWeavers.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,34 +219,42 @@
       <file leaf-file-name="Offsets.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dolosframework/Offset/Offsets.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="319">
+              <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
               <folding>
-                <marker date="1483713389304" expanded="true" signature="46:5532" ph="{...}" />
-                <marker date="1483713389304" expanded="true" signature="80:5530" ph="{...}" />
-                <marker date="1483713389304" expanded="true" signature="122:3331" ph="{...}" />
-                <marker date="1483713389304" expanded="true" signature="3371:5524" ph="{...}" />
+                <marker date="1486397142913" expanded="true" signature="80:5706" ph="{...}" />
+                <marker date="1486397142913" expanded="true" signature="122:3331" ph="{...}" />
+                <marker date="1486397142913" expanded="true" signature="3370:5700" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Module.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dolosframework/Module.cs">
+      <file leaf-file-name="Bunnyhop.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dolosframework/Hacks/Bunnyhop.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1485170295323" expanded="true" signature="24:288" ph="{...}" />
-                <marker date="1485170295323" expanded="true" signature="59:286" ph="{...}" />
-                <marker date="1485170295323" expanded="true" signature="138:216" ph="{...}" />
-                <marker date="1485170295323" expanded="true" signature="259:280" ph="{...}" />
+                <marker date="1481198220098" expanded="true" signature="6:142" ph="..." />
+                <marker date="1481198220098" expanded="true" signature="174:283" ph="{...}" />
+                <marker date="1481198220098" expanded="true" signature="195:281" ph="{...}" />
+                <marker date="1481198220098" expanded="true" signature="240:275" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>104</find>
+      <find>Lengh</find>
+      <find>arm</find>
+      <find>localplayer</find>
+      <find>weapon</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,14 +263,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Dolosframework/Module.cs" />
+        <option value="$PROJECT_DIR$/Dolosframework/Math/MathUtils.cs" />
+        <option value="$PROJECT_DIR$/Dolosframework/Math/Vector3.cs" />
+        <option value="$PROJECT_DIR$/Dolosframework/Hacks/TriggerBot.cs" />
+        <option value="$PROJECT_DIR$/Dolosframework/EntityManager/BaseEntity.cs" />
+        <option value="$PROJECT_DIR$/Dolosframework/Framework.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="78" />
-    <option name="width" value="1400" />
-    <option name="height" value="921" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -127,6 +311,24 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dolosframework (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dolosframework" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Math" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
@@ -135,6 +337,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="offset&#9;null&#9;null" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager" selected=".NET Project.Default">
     <configuration default="true" type="DotNetProject" factoryName=".NET Project">
@@ -179,11 +382,15 @@
       <option name="presentableId" value="Default" />
       <updated>1485170171623</updated>
       <workItem from="1485170173935" duration="833000" />
+      <workItem from="1486047610153" duration="12883000" />
+      <workItem from="1486159445092" duration="5739000" />
+      <workItem from="1486215680833" duration="13659000" />
+      <workItem from="1486410444024" duration="11362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="833000" />
+    <option name="totallyTimeSpent" value="44476000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -195,81 +402,895 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="78" width="1400" height="921" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1035" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors in solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UnitTesting" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors in solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22080186" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17829457" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26688814" sideWeight="0.4979663" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UnitTesting" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27546296" sideWeight="0.5020337" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18656716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/NewRepo" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Dolosframework/Framework.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="70" column="13" lean-forward="false" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484907527580" expanded="true" signature="6:306" ph="..." />
-            <marker date="1484907527580" expanded="true" signature="332:2624" ph="{...}" />
-            <marker date="1484907527580" expanded="true" signature="368:2622" ph="{...}" />
-            <marker date="1484907527580" expanded="true" signature="882:1686" ph="{...}" />
-            <marker date="1484907527580" expanded="true" signature="998:1091" ph="{...}" />
-            <marker date="1484907527580" expanded="true" signature="1151:1440" ph="{...}" />
-            <marker date="1484907527580" expanded="true" signature="1723:2616" ph="{...}" />
-            <marker date="1484907527580" expanded="true" signature="1941:2606" ph="{...}" />
-            <marker date="1484907527580" expanded="true" signature="2134:2475" ph="{...}" />
-            <marker date="1484907527580" expanded="true" signature="2295:2455" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="6:284" ph="..." />
+            <marker date="1486555902362" expanded="true" signature="6:357" ph="..." />
+            <marker date="1486555902362" expanded="true" signature="383:4586" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="419:4584" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="866:1731" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="982:1181" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="1104:1167" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="1241:1530" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4093:4370" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4393" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4411" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4568" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4578" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4584" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Hacks/TriggerBot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <marker date="1486244728676" expanded="true" signature="6:160" ph="..." />
+            <marker date="1486244728676" expanded="true" signature="231:1041" ph="{...}" />
+            <marker date="1486244728676" expanded="true" signature="276:1035" ph="{...}" />
+            <marker date="1486244728676" expanded="true" signature="378:1025" ph="{...}" />
+            <marker date="1486244728676" expanded="true" signature="465:1011" ph="{...}" />
+            <marker date="1486244728676" expanded="true" signature="528:993" ph="{...}" />
+            <marker date="1486244728676" expanded="true" signature="632:971" ph="{...}" />
+            <marker date="1486244728676" expanded="true" signature="721:945" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/MSBuild/14.0/Bin/Microsoft.Common.CurrentVersion.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52751">
+          <caret line="1819" column="4" lean-forward="false" selection-start-line="1819" selection-start-column="4" selection-end-line="1819" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Math/Vector3.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2378">
+          <caret line="82" column="145" lean-forward="false" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="145" />
+          <folding>
+            <marker date="1486159864870" expanded="true" signature="6:51" ph="..." />
+            <marker date="1486159864870" expanded="true" signature="82:4737" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="89:213" ph="/// Class that holds information about a 3d-coordinate and offers some basic operations ... " />
+            <marker date="1486159864870" expanded="true" signature="239:4735" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="424:544" ph="VARIABLES" />
+            <marker date="1486159864870" expanded="true" signature="554:1210" ph="PROPERTIES" />
+            <marker date="1486159864870" expanded="true" signature="582:663" ph="/// Returns a new Vector3 at (0,0,0) ... " />
+            <marker date="1486159864870" expanded="true" signature="733:814" ph="/// Returns a new Vector3 at (1,0,0) ... " />
+            <marker date="1486159864870" expanded="true" signature="885:966" ph="/// Returns a new Vector3 at (0,1,0) ... " />
+            <marker date="1486159864870" expanded="true" signature="1037:1118" ph="/// Returns a new Vector3 at (0,0,1) ... " />
+            <marker date="1486159864870" expanded="true" signature="1220:2102" ph="CONSTRUCTOR" />
+            <marker date="1486159864870" expanded="true" signature="1249:1457" ph="/// Initializes a new Vector3 using the given values ... " />
+            <marker date="1486159864870" expanded="true" signature="1507:1599" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="1609:1765" ph="/// Initializes a new Vector3 by copying the values of the given Vector3 ... " />
+            <marker date="1486159864870" expanded="true" signature="1843:1987" ph="/// Initializes a new Vector3 using the given float-array ... " />
+            <marker date="1486159864870" expanded="true" signature="2112:3154" ph="METHODS" />
+            <marker date="1486159864870" expanded="true" signature="2137:2252" ph="/// Returns the length of this Vector3 ... " />
+            <marker date="1486159864870" expanded="true" signature="2408:2589" ph="/// Returns the distance from this Vector3 to the given Vector3 ... " />
+            <marker date="1486159864870" expanded="true" signature="2636:2700" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="2749:2869" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="3164:4729" ph="OPERATORS" />
+            <marker date="1486159864870" expanded="true" signature="3779:4699" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="3805:4191" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="3846:4177" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="4207:4689" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="4248:4675" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/EntityManager/BaseEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="112" lean-forward="false" selection-start-line="20" selection-start-column="112" selection-end-line="20" selection-end-column="112" />
+          <folding>
+            <marker date="1486254355902" expanded="true" signature="6:69" ph="..." />
+            <marker date="1486254355902" expanded="true" signature="139:5055" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="237:301" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="335:675" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="361:665" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="686:762" ph="/// Returns the entities health ... " />
+            <marker date="1486254355902" expanded="true" signature="877:951" ph="/// Returns the entities team ... " />
+            <marker date="1486254355902" expanded="true" signature="1065:1168" ph="/// Returns true if they are spotted false if they are not ... " />
+            <marker date="1486254355902" expanded="true" signature="1287:1358" ph="/// return the clientstate ... " />
+            <marker date="1486254355902" expanded="true" signature="1511:1585" ph="/// Return flags for bunnyhop ... " />
+            <marker date="1486254355902" expanded="true" signature="2635:2810" ph="///Set Enemys as spotted on the radar ... " />
+            <marker date="1486254355902" expanded="true" signature="2945:3035" ph="/// Returns the entities bonebase ... " />
+            <marker date="1486254355902" expanded="true" signature="3163:3241" ph="/// Returns the entities position ... " />
+            <marker date="1486254355902" expanded="true" signature="3399:3707" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="3425:3697" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="3739:4103" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="3765:4093" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="4115:4224" ph="/// Returns the entities position of the bone they want [6 head] ... " />
+            <marker date="1486254355902" expanded="true" signature="4272:4855" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="4353:4506" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="4904:5047" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/EntityManager/EntitesModule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <marker date="1485595793679" expanded="true" signature="6:76" ph="..." />
+            <marker date="1485595793679" expanded="true" signature="158:932" ph="{...}" />
+            <marker date="1485595793679" expanded="true" signature="284:926" ph="{...}" />
+            <marker date="1485595793679" expanded="true" signature="407:916" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/FodyWeavers.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Math/Vector2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1476655686281" expanded="true" signature="51:175" ph="/// Class that holds information about a 2d-coordinate and offers some basic operations ... " />
+            <marker date="1476655686281" expanded="true" signature="201:3796" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="216:312" ph="VARIABLES" />
+            <marker date="1476655686281" expanded="true" signature="322:811" ph="PROPERTIES" />
+            <marker date="1476655686281" expanded="true" signature="350:429" ph="/// Returns a new Vector2 at (0,0) ... " />
+            <marker date="1476655686281" expanded="true" signature="496:575" ph="/// Returns a new Vector3 at (1,0) ... " />
+            <marker date="1476655686281" expanded="true" signature="643:722" ph="/// Returns a new Vector2 at (0,1) ... " />
+            <marker date="1476655686281" expanded="true" signature="821:1605" ph="CONSTRUCTOR" />
+            <marker date="1476655686281" expanded="true" signature="850:1021" ph="/// Initializes a new Vector2 using the given values ... " />
+            <marker date="1476655686281" expanded="true" signature="1062:1120" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="1130:1286" ph="/// Initializes a new Vector2 by copying the values of the given Vector2 ... " />
+            <marker date="1476655686281" expanded="true" signature="1357:1501" ph="/// Initializes a new Vector2 using the given float-array ... " />
+            <marker date="1476655686281" expanded="true" signature="1615:2460" ph="METHODS" />
+            <marker date="1476655686281" expanded="true" signature="1640:1755" ph="/// Returns the length of this Vector2 ... " />
+            <marker date="1476655686281" expanded="true" signature="1870:2051" ph="/// Returns the distance from this Vector2 to the given Vector2 ... " />
+            <marker date="1476655686281" expanded="true" signature="2175:2286" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="2470:3790" ph="OPERATORS" />
+            <marker date="1476655686281" expanded="true" signature="3028:3760" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="3054:3362" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="3095:3348" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="3378:3750" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="3419:3736" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dolosframework/Offset/Offsets.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="319">
+          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
           <folding>
-            <marker date="1483713389304" expanded="true" signature="46:5532" ph="{...}" />
-            <marker date="1483713389304" expanded="true" signature="80:5530" ph="{...}" />
-            <marker date="1483713389304" expanded="true" signature="122:3331" ph="{...}" />
-            <marker date="1483713389304" expanded="true" signature="3371:5524" ph="{...}" />
+            <marker date="1486397142913" expanded="true" signature="80:5706" ph="{...}" />
+            <marker date="1486397142913" expanded="true" signature="122:3331" ph="{...}" />
+            <marker date="1486397142913" expanded="true" signature="3370:5700" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Hacks/Bunnyhop.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1481198220098" expanded="true" signature="6:142" ph="..." />
+            <marker date="1481198220098" expanded="true" signature="174:283" ph="{...}" />
+            <marker date="1481198220098" expanded="true" signature="195:281" ph="{...}" />
+            <marker date="1481198220098" expanded="true" signature="240:275" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Framework.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486555902362" expanded="true" signature="6:284" ph="..." />
+            <marker date="1486555902362" expanded="true" signature="6:357" ph="..." />
+            <marker date="1486555902362" expanded="true" signature="383:4586" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="419:4584" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="866:1731" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="982:1181" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="1104:1167" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="1241:1530" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4093:4370" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4393" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4411" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4568" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4578" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4584" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Math/Vector3.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="82" column="145" lean-forward="false" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="145" />
+          <folding>
+            <marker date="1486159864870" expanded="true" signature="6:51" ph="..." />
+            <marker date="1486159864870" expanded="true" signature="82:4737" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="89:213" ph="/// Class that holds information about a 3d-coordinate and offers some basic operations ... " />
+            <marker date="1486159864870" expanded="true" signature="239:4735" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="424:544" ph="VARIABLES" />
+            <marker date="1486159864870" expanded="true" signature="554:1210" ph="PROPERTIES" />
+            <marker date="1486159864870" expanded="true" signature="582:663" ph="/// Returns a new Vector3 at (0,0,0) ... " />
+            <marker date="1486159864870" expanded="true" signature="733:814" ph="/// Returns a new Vector3 at (1,0,0) ... " />
+            <marker date="1486159864870" expanded="true" signature="885:966" ph="/// Returns a new Vector3 at (0,1,0) ... " />
+            <marker date="1486159864870" expanded="true" signature="1037:1118" ph="/// Returns a new Vector3 at (0,0,1) ... " />
+            <marker date="1486159864870" expanded="true" signature="1220:2102" ph="CONSTRUCTOR" />
+            <marker date="1486159864870" expanded="true" signature="1249:1457" ph="/// Initializes a new Vector3 using the given values ... " />
+            <marker date="1486159864870" expanded="true" signature="1507:1599" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="1609:1765" ph="/// Initializes a new Vector3 by copying the values of the given Vector3 ... " />
+            <marker date="1486159864870" expanded="true" signature="1843:1987" ph="/// Initializes a new Vector3 using the given float-array ... " />
+            <marker date="1486159864870" expanded="true" signature="2112:3154" ph="METHODS" />
+            <marker date="1486159864870" expanded="true" signature="2137:2252" ph="/// Returns the length of this Vector3 ... " />
+            <marker date="1486159864870" expanded="true" signature="2408:2589" ph="/// Returns the distance from this Vector3 to the given Vector3 ... " />
+            <marker date="1486159864870" expanded="true" signature="2636:2700" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="2749:2869" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="3164:4729" ph="OPERATORS" />
+            <marker date="1486159864870" expanded="true" signature="3779:4699" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="3805:4191" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="3846:4177" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="4207:4689" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="4248:4675" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Math/MathUtils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486112370979" expanded="true" signature="29:9291" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="36:137" ph="/// A utility-class that offers several mathematical algorithms. ... " />
+            <marker date="1486112370979" expanded="true" signature="171:9289" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="186:380" ph="VARIABLES" />
+            <marker date="1486112370979" expanded="true" signature="390:9283" ph="METHODS" />
+            <marker date="1486112370979" expanded="true" signature="415:835" ph="/// Translates an array of 3d-coordinates to screen-coodinates ... " />
+            <marker date="1486112370979" expanded="true" signature="950:1185" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="1195:1612" ph="/// Translates a 3d-coordinate to a screen-coodinate ... " />
+            <marker date="1486112370979" expanded="true" signature="1717:2675" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="1937:2632" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="2685:2977" ph="/// Applies (adds) an offset to an array of 3d-coordinates ... " />
+            <marker date="1486112370979" expanded="true" signature="3069:3205" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="3215:3498" ph="/// Copies an array of vectors to a new array containing identical, new Vector3s (deep-copy) ... " />
+            <marker date="1486112370979" expanded="true" signature="3565:3763" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="3773:4120" ph="/// Rotates a given point around another point ... " />
+            <marker date="1486112370979" expanded="true" signature="4233:4930" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="4511:4919" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="4940:5109" ph="/// Clamps a given angle ... " />
+            <marker date="1486112370979" expanded="true" signature="5170:5973" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="5193:5632" ph="/* if (qaAng.X &gt; 89.0f &amp;&amp; qaAng.X &lt;= 180.0f) ... */" />
+            <marker date="1486112370979" expanded="true" signature="5983:6300" ph="/// Calculates an angle that aims from the given source-Vector3 to the given destination-Vector3 ... " />
+            <marker date="1486112370979" expanded="true" signature="6371:6826" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="7655:8018" ph="/// Smooths an angle from src to dest ... " />
+            <marker date="1486112370979" expanded="true" signature="8160:8358" ph="/// Converts the given angle in degrees to radians ... " />
+            <marker date="1486112370979" expanded="true" signature="8461:8659" ph="/// Converts the given angle in radians to degrees ... " />
+            <marker date="1486112370979" expanded="true" signature="8762:9113" ph="/// Returns whether the given point is within a circle of the given radius around the given center ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/EntityManager/BaseEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486254355902" expanded="true" signature="6:69" ph="..." />
+            <marker date="1486254355902" expanded="true" signature="139:5055" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="237:301" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="335:675" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="361:665" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="686:762" ph="/// Returns the entities health ... " />
+            <marker date="1486254355902" expanded="true" signature="877:951" ph="/// Returns the entities team ... " />
+            <marker date="1486254355902" expanded="true" signature="1065:1168" ph="/// Returns true if they are spotted false if they are not ... " />
+            <marker date="1486254355902" expanded="true" signature="1287:1358" ph="/// return the clientstate ... " />
+            <marker date="1486254355902" expanded="true" signature="1511:1585" ph="/// Return flags for bunnyhop ... " />
+            <marker date="1486254355902" expanded="true" signature="2635:2810" ph="///Set Enemys as spotted on the radar ... " />
+            <marker date="1486254355902" expanded="true" signature="2945:3035" ph="/// Returns the entities bonebase ... " />
+            <marker date="1486254355902" expanded="true" signature="3163:3241" ph="/// Returns the entities position ... " />
+            <marker date="1486254355902" expanded="true" signature="3399:3707" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="3425:3697" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="3739:4103" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="3765:4093" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="4115:4224" ph="/// Returns the entities position of the bone they want [6 head] ... " />
+            <marker date="1486254355902" expanded="true" signature="4272:4855" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="4353:4506" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="4904:5047" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/EntityManager/EntitesModule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1485595793679" expanded="true" signature="6:76" ph="..." />
+            <marker date="1485595793679" expanded="true" signature="158:932" ph="{...}" />
+            <marker date="1485595793679" expanded="true" signature="284:926" ph="{...}" />
+            <marker date="1485595793679" expanded="true" signature="407:916" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/FodyWeavers.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Math/Vector2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1476655686281" expanded="true" signature="51:175" ph="/// Class that holds information about a 2d-coordinate and offers some basic operations ... " />
+            <marker date="1476655686281" expanded="true" signature="201:3796" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="216:312" ph="VARIABLES" />
+            <marker date="1476655686281" expanded="true" signature="322:811" ph="PROPERTIES" />
+            <marker date="1476655686281" expanded="true" signature="350:429" ph="/// Returns a new Vector2 at (0,0) ... " />
+            <marker date="1476655686281" expanded="true" signature="496:575" ph="/// Returns a new Vector3 at (1,0) ... " />
+            <marker date="1476655686281" expanded="true" signature="643:722" ph="/// Returns a new Vector2 at (0,1) ... " />
+            <marker date="1476655686281" expanded="true" signature="821:1605" ph="CONSTRUCTOR" />
+            <marker date="1476655686281" expanded="true" signature="850:1021" ph="/// Initializes a new Vector2 using the given values ... " />
+            <marker date="1476655686281" expanded="true" signature="1062:1120" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="1130:1286" ph="/// Initializes a new Vector2 by copying the values of the given Vector2 ... " />
+            <marker date="1476655686281" expanded="true" signature="1357:1501" ph="/// Initializes a new Vector2 using the given float-array ... " />
+            <marker date="1476655686281" expanded="true" signature="1615:2460" ph="METHODS" />
+            <marker date="1476655686281" expanded="true" signature="1640:1755" ph="/// Returns the length of this Vector2 ... " />
+            <marker date="1476655686281" expanded="true" signature="1870:2051" ph="/// Returns the distance from this Vector2 to the given Vector2 ... " />
+            <marker date="1476655686281" expanded="true" signature="2175:2286" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="2470:3790" ph="OPERATORS" />
+            <marker date="1476655686281" expanded="true" signature="3028:3760" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="3054:3362" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="3095:3348" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="3378:3750" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="3419:3736" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Offset/Offsets.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <marker date="1486397142913" expanded="true" signature="80:5706" ph="{...}" />
+            <marker date="1486397142913" expanded="true" signature="122:3331" ph="{...}" />
+            <marker date="1486397142913" expanded="true" signature="3370:5700" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dolosframework/Module.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="306">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Framework.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding>
-            <marker date="1485170295323" expanded="true" signature="24:288" ph="{...}" />
-            <marker date="1485170295323" expanded="true" signature="59:286" ph="{...}" />
-            <marker date="1485170295323" expanded="true" signature="138:216" ph="{...}" />
-            <marker date="1485170295323" expanded="true" signature="259:280" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="6:284" ph="..." />
+            <marker date="1486555902362" expanded="true" signature="6:357" ph="..." />
+            <marker date="1486555902362" expanded="true" signature="383:4586" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="419:4584" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="866:1731" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="982:1181" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="1104:1167" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="1241:1530" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4093:4370" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4393" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4411" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4568" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4578" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4584" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Math/Vector3.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486159864870" expanded="true" signature="6:51" ph="..." />
+            <marker date="1486159864870" expanded="true" signature="82:4737" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="89:213" ph="/// Class that holds information about a 3d-coordinate and offers some basic operations ... " />
+            <marker date="1486159864870" expanded="true" signature="239:4735" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="424:544" ph="VARIABLES" />
+            <marker date="1486159864870" expanded="true" signature="554:1210" ph="PROPERTIES" />
+            <marker date="1486159864870" expanded="true" signature="582:663" ph="/// Returns a new Vector3 at (0,0,0) ... " />
+            <marker date="1486159864870" expanded="true" signature="733:814" ph="/// Returns a new Vector3 at (1,0,0) ... " />
+            <marker date="1486159864870" expanded="true" signature="885:966" ph="/// Returns a new Vector3 at (0,1,0) ... " />
+            <marker date="1486159864870" expanded="true" signature="1037:1118" ph="/// Returns a new Vector3 at (0,0,1) ... " />
+            <marker date="1486159864870" expanded="true" signature="1220:2102" ph="CONSTRUCTOR" />
+            <marker date="1486159864870" expanded="true" signature="1249:1457" ph="/// Initializes a new Vector3 using the given values ... " />
+            <marker date="1486159864870" expanded="true" signature="1507:1599" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="1609:1765" ph="/// Initializes a new Vector3 by copying the values of the given Vector3 ... " />
+            <marker date="1486159864870" expanded="true" signature="1843:1987" ph="/// Initializes a new Vector3 using the given float-array ... " />
+            <marker date="1486159864870" expanded="true" signature="2112:3154" ph="METHODS" />
+            <marker date="1486159864870" expanded="true" signature="2137:2252" ph="/// Returns the length of this Vector3 ... " />
+            <marker date="1486159864870" expanded="true" signature="2408:2589" ph="/// Returns the distance from this Vector3 to the given Vector3 ... " />
+            <marker date="1486159864870" expanded="true" signature="2636:2700" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="2749:2869" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="3164:4729" ph="OPERATORS" />
+            <marker date="1486159864870" expanded="true" signature="3779:4699" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="3805:4191" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="3846:4177" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="4207:4689" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="4248:4675" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Math/MathUtils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486112370979" expanded="true" signature="29:9291" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="36:137" ph="/// A utility-class that offers several mathematical algorithms. ... " />
+            <marker date="1486112370979" expanded="true" signature="171:9289" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="186:380" ph="VARIABLES" />
+            <marker date="1486112370979" expanded="true" signature="390:9283" ph="METHODS" />
+            <marker date="1486112370979" expanded="true" signature="415:835" ph="/// Translates an array of 3d-coordinates to screen-coodinates ... " />
+            <marker date="1486112370979" expanded="true" signature="950:1185" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="1195:1612" ph="/// Translates a 3d-coordinate to a screen-coodinate ... " />
+            <marker date="1486112370979" expanded="true" signature="1717:2675" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="1937:2632" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="2685:2977" ph="/// Applies (adds) an offset to an array of 3d-coordinates ... " />
+            <marker date="1486112370979" expanded="true" signature="3069:3205" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="3215:3498" ph="/// Copies an array of vectors to a new array containing identical, new Vector3s (deep-copy) ... " />
+            <marker date="1486112370979" expanded="true" signature="3565:3763" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="3773:4120" ph="/// Rotates a given point around another point ... " />
+            <marker date="1486112370979" expanded="true" signature="4233:4930" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="4511:4919" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="4940:5109" ph="/// Clamps a given angle ... " />
+            <marker date="1486112370979" expanded="true" signature="5170:5973" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="5193:5632" ph="/* if (qaAng.X &gt; 89.0f &amp;&amp; qaAng.X &lt;= 180.0f) ... */" />
+            <marker date="1486112370979" expanded="true" signature="5983:6300" ph="/// Calculates an angle that aims from the given source-Vector3 to the given destination-Vector3 ... " />
+            <marker date="1486112370979" expanded="true" signature="6371:6826" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="7655:8018" ph="/// Smooths an angle from src to dest ... " />
+            <marker date="1486112370979" expanded="true" signature="8160:8358" ph="/// Converts the given angle in degrees to radians ... " />
+            <marker date="1486112370979" expanded="true" signature="8461:8659" ph="/// Converts the given angle in radians to degrees ... " />
+            <marker date="1486112370979" expanded="true" signature="8762:9113" ph="/// Returns whether the given point is within a circle of the given radius around the given center ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/EntityManager/BaseEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="79" column="13" lean-forward="false" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+          <folding>
+            <marker date="1486254355902" expanded="true" signature="6:69" ph="..." />
+            <marker date="1486254355902" expanded="true" signature="139:5055" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="237:301" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="335:675" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="361:665" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="686:762" ph="/// Returns the entities health ... " />
+            <marker date="1486254355902" expanded="true" signature="877:951" ph="/// Returns the entities team ... " />
+            <marker date="1486254355902" expanded="true" signature="1065:1168" ph="/// Returns true if they are spotted false if they are not ... " />
+            <marker date="1486254355902" expanded="true" signature="1287:1358" ph="/// return the clientstate ... " />
+            <marker date="1486254355902" expanded="true" signature="1511:1585" ph="/// Return flags for bunnyhop ... " />
+            <marker date="1486254355902" expanded="true" signature="2635:2810" ph="///Set Enemys as spotted on the radar ... " />
+            <marker date="1486254355902" expanded="true" signature="2945:3035" ph="/// Returns the entities bonebase ... " />
+            <marker date="1486254355902" expanded="true" signature="3163:3241" ph="/// Returns the entities position ... " />
+            <marker date="1486254355902" expanded="true" signature="3399:3707" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="3425:3697" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="3739:4103" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="3765:4093" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="4115:4224" ph="/// Returns the entities position of the bone they want [6 head] ... " />
+            <marker date="1486254355902" expanded="true" signature="4272:4855" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="4353:4506" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="4904:5047" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Math/Vector2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1476655686281" expanded="true" signature="51:175" ph="/// Class that holds information about a 2d-coordinate and offers some basic operations ... " />
+            <marker date="1476655686281" expanded="true" signature="201:3796" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="216:312" ph="VARIABLES" />
+            <marker date="1476655686281" expanded="true" signature="322:811" ph="PROPERTIES" />
+            <marker date="1476655686281" expanded="true" signature="350:429" ph="/// Returns a new Vector2 at (0,0) ... " />
+            <marker date="1476655686281" expanded="true" signature="496:575" ph="/// Returns a new Vector3 at (1,0) ... " />
+            <marker date="1476655686281" expanded="true" signature="643:722" ph="/// Returns a new Vector2 at (0,1) ... " />
+            <marker date="1476655686281" expanded="true" signature="821:1605" ph="CONSTRUCTOR" />
+            <marker date="1476655686281" expanded="true" signature="850:1021" ph="/// Initializes a new Vector2 using the given values ... " />
+            <marker date="1476655686281" expanded="true" signature="1062:1120" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="1130:1286" ph="/// Initializes a new Vector2 by copying the values of the given Vector2 ... " />
+            <marker date="1476655686281" expanded="true" signature="1357:1501" ph="/// Initializes a new Vector2 using the given float-array ... " />
+            <marker date="1476655686281" expanded="true" signature="1615:2460" ph="METHODS" />
+            <marker date="1476655686281" expanded="true" signature="1640:1755" ph="/// Returns the length of this Vector2 ... " />
+            <marker date="1476655686281" expanded="true" signature="1870:2051" ph="/// Returns the distance from this Vector2 to the given Vector2 ... " />
+            <marker date="1476655686281" expanded="true" signature="2175:2286" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="2470:3790" ph="OPERATORS" />
+            <marker date="1476655686281" expanded="true" signature="3028:3760" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="3054:3362" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="3095:3348" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="3378:3750" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="3419:3736" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Offset/Offsets.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486397142913" expanded="true" signature="80:5706" ph="{...}" />
+            <marker date="1486397142913" expanded="true" signature="122:3331" ph="{...}" />
+            <marker date="1486397142913" expanded="true" signature="3370:5700" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Module.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Framework.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="70" column="13" lean-forward="false" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+          <folding>
+            <marker date="1486555902362" expanded="true" signature="6:284" ph="..." />
+            <marker date="1486555902362" expanded="true" signature="6:357" ph="..." />
+            <marker date="1486555902362" expanded="true" signature="383:4586" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="419:4584" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="866:1731" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="982:1181" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="1104:1167" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="1241:1530" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4093:4370" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4393" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4411" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4568" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4578" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4584" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Offset/Offsets.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <marker date="1486397142913" expanded="true" signature="80:5706" ph="{...}" />
+            <marker date="1486397142913" expanded="true" signature="122:3331" ph="{...}" />
+            <marker date="1486397142913" expanded="true" signature="3370:5700" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Module.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Module.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Math/Vector2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1476655686281" expanded="true" signature="51:175" ph="/// Class that holds information about a 2d-coordinate and offers some basic operations ... " />
+            <marker date="1476655686281" expanded="true" signature="201:3796" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="216:312" ph="VARIABLES" />
+            <marker date="1476655686281" expanded="true" signature="322:811" ph="PROPERTIES" />
+            <marker date="1476655686281" expanded="true" signature="350:429" ph="/// Returns a new Vector2 at (0,0) ... " />
+            <marker date="1476655686281" expanded="true" signature="496:575" ph="/// Returns a new Vector3 at (1,0) ... " />
+            <marker date="1476655686281" expanded="true" signature="643:722" ph="/// Returns a new Vector2 at (0,1) ... " />
+            <marker date="1476655686281" expanded="true" signature="821:1605" ph="CONSTRUCTOR" />
+            <marker date="1476655686281" expanded="true" signature="850:1021" ph="/// Initializes a new Vector2 using the given values ... " />
+            <marker date="1476655686281" expanded="true" signature="1062:1120" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="1130:1286" ph="/// Initializes a new Vector2 by copying the values of the given Vector2 ... " />
+            <marker date="1476655686281" expanded="true" signature="1357:1501" ph="/// Initializes a new Vector2 using the given float-array ... " />
+            <marker date="1476655686281" expanded="true" signature="1615:2460" ph="METHODS" />
+            <marker date="1476655686281" expanded="true" signature="1640:1755" ph="/// Returns the length of this Vector2 ... " />
+            <marker date="1476655686281" expanded="true" signature="1870:2051" ph="/// Returns the distance from this Vector2 to the given Vector2 ... " />
+            <marker date="1476655686281" expanded="true" signature="2175:2286" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="2470:3790" ph="OPERATORS" />
+            <marker date="1476655686281" expanded="true" signature="3028:3760" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="3054:3362" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="3095:3348" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="3378:3750" ph="{...}" />
+            <marker date="1476655686281" expanded="true" signature="3419:3736" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/FodyWeavers.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Hacks/Bunnyhop.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1481198220098" expanded="true" signature="6:142" ph="..." />
+            <marker date="1481198220098" expanded="true" signature="174:283" ph="{...}" />
+            <marker date="1481198220098" expanded="true" signature="195:281" ph="{...}" />
+            <marker date="1481198220098" expanded="true" signature="240:275" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/EntityManager/EntitesModule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <marker date="1485595793679" expanded="true" signature="6:76" ph="..." />
+            <marker date="1485595793679" expanded="true" signature="158:932" ph="{...}" />
+            <marker date="1485595793679" expanded="true" signature="284:926" ph="{...}" />
+            <marker date="1485595793679" expanded="true" signature="407:916" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/EntityManager/BaseEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="112" lean-forward="false" selection-start-line="20" selection-start-column="112" selection-end-line="20" selection-end-column="112" />
+          <folding>
+            <marker date="1486254355902" expanded="true" signature="6:69" ph="..." />
+            <marker date="1486254355902" expanded="true" signature="139:5055" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="237:301" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="335:675" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="361:665" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="686:762" ph="/// Returns the entities health ... " />
+            <marker date="1486254355902" expanded="true" signature="877:951" ph="/// Returns the entities team ... " />
+            <marker date="1486254355902" expanded="true" signature="1065:1168" ph="/// Returns true if they are spotted false if they are not ... " />
+            <marker date="1486254355902" expanded="true" signature="1287:1358" ph="/// return the clientstate ... " />
+            <marker date="1486254355902" expanded="true" signature="1511:1585" ph="/// Return flags for bunnyhop ... " />
+            <marker date="1486254355902" expanded="true" signature="2635:2810" ph="///Set Enemys as spotted on the radar ... " />
+            <marker date="1486254355902" expanded="true" signature="2945:3035" ph="/// Returns the entities bonebase ... " />
+            <marker date="1486254355902" expanded="true" signature="3163:3241" ph="/// Returns the entities position ... " />
+            <marker date="1486254355902" expanded="true" signature="3399:3707" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="3425:3697" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="3739:4103" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="3765:4093" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="4115:4224" ph="/// Returns the entities position of the bone they want [6 head] ... " />
+            <marker date="1486254355902" expanded="true" signature="4272:4855" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="4353:4506" ph="{...}" />
+            <marker date="1486254355902" expanded="true" signature="4904:5047" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/MSBuild/14.0/Bin/Microsoft.Common.CurrentVersion.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52751">
+          <caret line="1819" column="4" lean-forward="false" selection-start-line="1819" selection-start-column="4" selection-end-line="1819" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Hacks/TriggerBot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <marker date="1486244728676" expanded="true" signature="6:160" ph="..." />
+            <marker date="1486244728676" expanded="true" signature="231:1041" ph="{...}" />
+            <marker date="1486244728676" expanded="true" signature="276:1035" ph="{...}" />
+            <marker date="1486244728676" expanded="true" signature="378:1025" ph="{...}" />
+            <marker date="1486244728676" expanded="true" signature="465:1011" ph="{...}" />
+            <marker date="1486244728676" expanded="true" signature="528:993" ph="{...}" />
+            <marker date="1486244728676" expanded="true" signature="632:971" ph="{...}" />
+            <marker date="1486244728676" expanded="true" signature="721:945" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Offset/Offsets.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding>
+            <marker date="1486397142913" expanded="true" signature="80:5706" ph="{...}" />
+            <marker date="1486397142913" expanded="true" signature="122:3331" ph="{...}" />
+            <marker date="1486397142913" expanded="true" signature="3370:5700" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Math/Vector3.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2206">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486159864870" expanded="true" signature="6:51" ph="..." />
+            <marker date="1486159864870" expanded="true" signature="82:4737" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="89:213" ph="/// Class that holds information about a 3d-coordinate and offers some basic operations ... " />
+            <marker date="1486159864870" expanded="true" signature="239:4735" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="424:544" ph="VARIABLES" />
+            <marker date="1486159864870" expanded="true" signature="554:1210" ph="PROPERTIES" />
+            <marker date="1486159864870" expanded="true" signature="582:663" ph="/// Returns a new Vector3 at (0,0,0) ... " />
+            <marker date="1486159864870" expanded="true" signature="733:814" ph="/// Returns a new Vector3 at (1,0,0) ... " />
+            <marker date="1486159864870" expanded="true" signature="885:966" ph="/// Returns a new Vector3 at (0,1,0) ... " />
+            <marker date="1486159864870" expanded="true" signature="1037:1118" ph="/// Returns a new Vector3 at (0,0,1) ... " />
+            <marker date="1486159864870" expanded="true" signature="1220:2102" ph="CONSTRUCTOR" />
+            <marker date="1486159864870" expanded="true" signature="1249:1457" ph="/// Initializes a new Vector3 using the given values ... " />
+            <marker date="1486159864870" expanded="true" signature="1507:1599" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="1609:1765" ph="/// Initializes a new Vector3 by copying the values of the given Vector3 ... " />
+            <marker date="1486159864870" expanded="true" signature="1843:1987" ph="/// Initializes a new Vector3 using the given float-array ... " />
+            <marker date="1486159864870" expanded="true" signature="2112:3154" ph="METHODS" />
+            <marker date="1486159864870" expanded="true" signature="2137:2252" ph="/// Returns the length of this Vector3 ... " />
+            <marker date="1486159864870" expanded="true" signature="2408:2589" ph="/// Returns the distance from this Vector3 to the given Vector3 ... " />
+            <marker date="1486159864870" expanded="true" signature="2636:2700" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="2749:2869" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="3164:4729" ph="OPERATORS" />
+            <marker date="1486159864870" expanded="true" signature="3779:4699" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="3805:4191" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="3846:4177" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="4207:4689" ph="{...}" />
+            <marker date="1486159864870" expanded="true" signature="4248:4675" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Math/MathUtils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4756">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486112370979" expanded="true" signature="29:9291" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="36:137" ph="/// A utility-class that offers several mathematical algorithms. ... " />
+            <marker date="1486112370979" expanded="true" signature="171:9289" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="186:380" ph="VARIABLES" />
+            <marker date="1486112370979" expanded="true" signature="390:9283" ph="METHODS" />
+            <marker date="1486112370979" expanded="true" signature="415:835" ph="/// Translates an array of 3d-coordinates to screen-coodinates ... " />
+            <marker date="1486112370979" expanded="true" signature="950:1185" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="1195:1612" ph="/// Translates a 3d-coordinate to a screen-coodinate ... " />
+            <marker date="1486112370979" expanded="true" signature="1717:2675" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="1937:2632" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="2685:2977" ph="/// Applies (adds) an offset to an array of 3d-coordinates ... " />
+            <marker date="1486112370979" expanded="true" signature="3069:3205" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="3215:3498" ph="/// Copies an array of vectors to a new array containing identical, new Vector3s (deep-copy) ... " />
+            <marker date="1486112370979" expanded="true" signature="3565:3763" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="3773:4120" ph="/// Rotates a given point around another point ... " />
+            <marker date="1486112370979" expanded="true" signature="4233:4930" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="4511:4919" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="4940:5109" ph="/// Clamps a given angle ... " />
+            <marker date="1486112370979" expanded="true" signature="5170:5973" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="5193:5632" ph="/* if (qaAng.X &gt; 89.0f &amp;&amp; qaAng.X &lt;= 180.0f) ... */" />
+            <marker date="1486112370979" expanded="true" signature="5983:6300" ph="/// Calculates an angle that aims from the given source-Vector3 to the given destination-Vector3 ... " />
+            <marker date="1486112370979" expanded="true" signature="6371:6826" ph="{...}" />
+            <marker date="1486112370979" expanded="true" signature="7655:8018" ph="/// Smooths an angle from src to dest ... " />
+            <marker date="1486112370979" expanded="true" signature="8160:8358" ph="/// Converts the given angle in degrees to radians ... " />
+            <marker date="1486112370979" expanded="true" signature="8461:8659" ph="/// Converts the given angle in radians to degrees ... " />
+            <marker date="1486112370979" expanded="true" signature="8762:9113" ph="/// Returns whether the given point is within a circle of the given radius around the given center ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dolosframework/Framework.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="73" column="65" lean-forward="false" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
+          <folding>
+            <marker date="1486555902362" expanded="true" signature="6:284" ph="..." />
+            <marker date="1486555902362" expanded="true" signature="6:357" ph="..." />
+            <marker date="1486555902362" expanded="true" signature="383:4586" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="419:4584" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="866:1731" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="982:1181" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="1104:1167" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="1241:1530" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4093:4370" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4393" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4411" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4568" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4578" ph="{...}" />
+            <marker date="1486555902362" expanded="true" signature="4372:4584" ph="{...}" />
           </folding>
         </state>
       </provider>

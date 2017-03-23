@@ -13,6 +13,18 @@ namespace Dolosframework.EntityManager
             this.baseAddress = baseAddress;
         }
 
+        public int CurrentWeapon
+        {
+            get
+            {
+                var WeaponIndex = Framework.Memory.Read<int>(LocalPlayer + Offsets.netvars.m_hActiveWeapon, false) & 0xFFF;
+                var WeapnEntity = Framework.Memory.Read<int>(Framework.ClientDll.BaseAddress + (int) baseAddress);
+                return WeaponIndex;
+
+            }
+        }
+
+
         /// <summary>
         /// Returns the entities health
         /// </summary>
@@ -38,6 +50,7 @@ namespace Dolosframework.EntityManager
         /// </summary>
         public byte Flags => Framework.Memory.Read<byte>(baseAddress + Offsets.netvars.m_fFlags, false);
 
+        public Vector3 VecPunch => Framework.Memory.Read<Vector3>(baseAddress + Offsets.netvars.m_aimPunchAngle, false);
 
         public IntPtr LocalPlayer => Framework.Memory.Read<IntPtr>(Framework.ClientDll.BaseAddress + Offsets.signatures.dwLocalPlayer, false);
 
@@ -47,10 +60,10 @@ namespace Dolosframework.EntityManager
         public Vector3 eyepos => Framework.Memory.Read<Vector3>(LocalPlayer + Offsets.netvars.m_vecViewOffset, false);
 
 
-        public Vector3 viewangles
-            => Framework.Memory.Read<Vector3>(ClientState + Offsets.signatures.dwClientState_ViewAngles, false);
- 
+        public Vector3 ViewAngles => Framework.Memory.Read<Vector3>(ClientState + Offsets.signatures.dwClientState_ViewAngles, false);
 
+        public void SetViewAngle(Vector3 value) => Framework.Memory.Write(ClientState + Offsets.signatures.dwClientState_ViewAngles, value, false);
+            
         public void SetJump(int value) => Framework.Memory.Write(baseAddress + Offsets.signatures.dwForceJump, value, false);
        
         /// <summary>
@@ -70,22 +83,14 @@ namespace Dolosframework.EntityManager
         /// </summary>
         public Vector3 Position => Framework.Memory.Read<Vector3>(baseAddress + Offsets.netvars.m_vecOrigin, false);
 
-        public Vector3 testx
+        public Vector3 LocalEyePosition
         {
             get
             {
-                var x = Origin;
-                var y = eyepos;
-
-                Vector3 Eyepos;
-
-                Eyepos.X = x.X + y.X;
-                Eyepos.Y = x.Y + y.Y;
-                Eyepos.Z = x.Z + y.Z;
-
-                return Eyepos;
-
-            }            
+                var x = Framework.Memory.Read<Vector3>(baseAddress + Offsets.netvars.m_vecOrigin, false);
+                var y = Framework.Memory.Read<Vector3>(baseAddress + Offsets.netvars.m_vecViewOffset, false);
+                return x+y;
+            }
         }
 
 
@@ -129,5 +134,7 @@ namespace Dolosframework.EntityManager
         {
             Framework.Memory.Write<int>(Framework.ClientDll.BaseAddress + Offsets.signatures.dwForceAttack, value, false);
         }
+
+
     }
 }
