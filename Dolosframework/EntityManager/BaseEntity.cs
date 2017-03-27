@@ -101,7 +101,7 @@ namespace Dolosframework.EntityManager
                 var xx = Framework.Memory.Read<IntPtr>(Framework.ClientDll.BaseAddress + Offsets.signatures.dwLocalPlayer, false);
                 var positionLocal = Framework.Memory.Read<Vector3>(xx + Offsets.netvars.m_vecOrigin, false);
 
-                return positionLocal.DistanceTo(Position);
+                return Position.DistanceTo(positionLocal);
             }
         }
 

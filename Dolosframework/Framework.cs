@@ -71,21 +71,22 @@ namespace Dolosframework
                 //    var Fov =
                 //        System.Math.Sqrt(System.Math.Pow(clampedAngle.X - currentViewAngle.X, 2) +
                 //                         System.Math.Pow(clampedAngle.Y - currentViewAngle.Y, 2));
-                //    var IsDown = (Vector3.GetKeyState(0x01) & 0xFF00) != 0;
                 //    if (!(Fov < 2)) continue;
                 //        if (IsDown)
                 //        {
 
 
-
-                //        }
+                //        } 
                 //    }
 
 
                 //Bunnyhop.Activated();
                 //TriggerBot.Activated();
-                Bspotted.Activated();
 
+                var IsDown = (Vector3.GetKeyState(0x48) & 0xFF00) != 0;
+                var Toggled = Vector3.GetKeyState(0x48) != 0;
+
+                Bspotted.Activated();
             }
         }
     }

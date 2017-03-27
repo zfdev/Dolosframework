@@ -7,7 +7,7 @@ namespace Dolosframework
     {
         private static void Main(string[] args)
         {
-            Console.WriteAscii("HA! GAAY!", Color.Gold);
+            Console.WriteAscii("jewkiller2000", Color.Gold);
             Framework.OnLoad();
             while (true)
                 Framework.Loop();
